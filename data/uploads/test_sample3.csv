@@ -1,0 +1,2496 @@
+Year,Month,Category,Sub-Category,Region,Sales
+2015,1,Furniture,Bookcases,Central,15333
+2015,1,Furniture,Bookcases,East,15334
+2015,1,Furniture,Bookcases,West,15335
+2015,1,Furniture,Chairs,South,15336
+2015,1,Furniture,Furnishings,Central,15337
+2015,1,Furniture,Furnishings,East,15338
+2015,1,Furniture,Furnishings,South,15339
+2015,1,Furniture,Furnishings,West,16000
+2015,1,Furniture,Tables,West,16001
+2015,1,Office Supplies,Appliances,Central,16002
+2015,1,Office Supplies,Appliances,West,16002
+2015,1,Office Supplies,Art,Central,16002
+2015,1,Office Supplies,Art,East,166556
+2015,1,Office Supplies,Art,South,166556
+2015,1,Office Supplies,Art,West,166556
+2015,1,Office Supplies,Binders,Central,166556
+2015,1,Office Supplies,Binders,East,166556
+2015,1,Office Supplies,Binders,South,166556
+2015,1,Office Supplies,Binders,West,166556
+2015,1,Office Supplies,Envelopes,South,166556
+2015,1,Office Supplies,Envelopes,West,166556
+2015,1,Office Supplies,Fasteners,South,31.12
+2015,1,Office Supplies,Labels,Central,31.12
+2015,1,Office Supplies,Labels,East,31.12
+2015,1,Office Supplies,Labels,South,31.12
+2015,1,Office Supplies,Paper,Central,31.12
+2015,1,Office Supplies,Paper,East,31.12
+2015,1,Office Supplies,Paper,South,31.12
+2015,1,Office Supplies,Paper,West,31.12
+2015,1,Office Supplies,Storage,Central,31.12
+2015,1,Office Supplies,Storage,South,31.12
+2015,1,Office Supplies,Storage,West,31.12
+2015,1,Technology,Accessories,Central,31.12
+2015,1,Technology,Accessories,South,31.12
+2015,1,Technology,Phones,East,31.12
+2015,1,Technology,Phones,South,31.12
+2015,2,Furniture,Chairs,Central,31.12
+2015,2,Furniture,Chairs,West,31.12
+2015,2,Furniture,Furnishings,Central,31.12
+2015,2,Furniture,Furnishings,West,31.12
+2015,2,Furniture,Tables,South,31.12
+2015,2,Office Supplies,Appliances,Central,31.12
+2015,2,Office Supplies,Appliances,West,31.12
+2015,2,Office Supplies,Art,Central,31.12
+2015,2,Office Supplies,Art,East,31.12
+2015,2,Office Supplies,Binders,Central,31.12
+2015,2,Office Supplies,Binders,South,31.12
+2015,2,Office Supplies,Binders,West,31.12
+2015,2,Office Supplies,Fasteners,West,31.12
+2015,2,Office Supplies,Labels,Central,31.12
+2015,2,Office Supplies,Labels,South,31.12
+2015,2,Office Supplies,Paper,Central,31.12
+2015,2,Office Supplies,Paper,West,31.12
+2015,2,Office Supplies,Storage,Central,31.12
+2015,2,Office Supplies,Storage,East,31.12
+2015,2,Office Supplies,Supplies,West,31.12
+2015,2,Technology,Accessories,Central,31.12
+2015,2,Technology,Accessories,East,31.12
+2015,2,Technology,Accessories,South,31.12
+2015,2,Technology,Accessories,West,31.12
+2015,2,Technology,Phones,South,31.12
+2015,3,Furniture,Bookcases,East,31.12
+2015,3,Furniture,Bookcases,West,31.12
+2015,3,Furniture,Chairs,Central,31.12
+2015,3,Furniture,Chairs,East,31.12
+2015,3,Furniture,Chairs,South,31.12
+2015,3,Furniture,Chairs,West,31.12
+2015,3,Furniture,Furnishings,Central,31.12
+2015,3,Furniture,Furnishings,East,31.12
+2015,3,Furniture,Furnishings,South,31.12
+2015,3,Furniture,Furnishings,West,31.12
+2015,3,Furniture,Tables,Central,31.12
+2015,3,Furniture,Tables,East,31.12
+2015,3,Furniture,Tables,West,31.12
+2015,3,Office Supplies,Appliances,Central,31.12
+2015,3,Office Supplies,Appliances,South,31.12
+2015,3,Office Supplies,Appliances,West,31.12
+2015,3,Office Supplies,Art,Central,31.12
+2015,3,Office Supplies,Art,East,31.12
+2015,3,Office Supplies,Art,South,31.12
+2015,3,Office Supplies,Art,West,31.12
+2015,3,Office Supplies,Binders,Central,31.12
+2015,3,Office Supplies,Binders,East,31.12
+2015,3,Office Supplies,Binders,South,31.12
+2015,3,Office Supplies,Binders,West,31.12
+2015,3,Office Supplies,Envelopes,Central,31.12
+2015,3,Office Supplies,Envelopes,East,31.12
+2015,3,Office Supplies,Fasteners,Central,31.12
+2015,3,Office Supplies,Fasteners,East,31.12
+2015,3,Office Supplies,Fasteners,South,31.12
+2015,3,Office Supplies,Labels,East,31.12
+2015,3,Office Supplies,Labels,South,31.12
+2015,3,Office Supplies,Labels,West,31.12
+2015,3,Office Supplies,Paper,Central,31.12
+2015,3,Office Supplies,Paper,East,31.12
+2015,3,Office Supplies,Paper,South,31.12
+2015,3,Office Supplies,Paper,West,31.12
+2015,3,Office Supplies,Storage,Central,31.12
+2015,3,Office Supplies,Storage,East,31.12
+2015,3,Office Supplies,Storage,South,31.12
+2015,3,Office Supplies,Storage,West,31.12
+2015,3,Office Supplies,Supplies,East,31.12
+2015,3,Technology,Accessories,Central,31.12
+2015,3,Technology,Accessories,East,31.12
+2015,3,Technology,Accessories,South,31.12
+2015,3,Technology,Accessories,West,31.12
+2015,3,Technology,Machines,Central,31.12
+2015,3,Technology,Machines,South,31.12
+2015,3,Technology,Machines,West,31.12
+2015,3,Technology,Phones,Central,31.12
+2015,3,Technology,Phones,East,31.12
+2015,3,Technology,Phones,South,31.12
+2015,3,Technology,Phones,West,31.12
+2015,4,Furniture,Bookcases,West,31.12
+2015,4,Furniture,Chairs,Central,31.12
+2015,4,Furniture,Chairs,East,31.12
+2015,4,Furniture,Chairs,South,31.12
+2015,4,Furniture,Chairs,West,31.12
+2015,4,Furniture,Furnishings,Central,31.12
+2015,4,Furniture,Furnishings,East,31.12
+2015,4,Furniture,Furnishings,South,31.12
+2015,4,Furniture,Furnishings,West,31.12
+2015,4,Furniture,Tables,Central,31.12
+2015,4,Furniture,Tables,East,31.12
+2015,4,Furniture,Tables,South,31.12
+2015,4,Furniture,Tables,West,31.12
+2015,4,Office Supplies,Appliances,South,31.12
+2015,4,Office Supplies,Appliances,West,31.12
+2015,4,Office Supplies,Art,Central,31.12
+2015,4,Office Supplies,Art,East,31.12
+2015,4,Office Supplies,Art,South,31.12
+2015,4,Office Supplies,Art,West,31.12
+2015,4,Office Supplies,Binders,Central,31.12
+2015,4,Office Supplies,Binders,East,31.12
+2015,4,Office Supplies,Binders,South,31.12
+2015,4,Office Supplies,Binders,West,31.12
+2015,4,Office Supplies,Envelopes,Central,31.12
+2015,4,Office Supplies,Envelopes,East,31.12
+2015,4,Office Supplies,Fasteners,East,31.12
+2015,4,Office Supplies,Fasteners,South,31.12
+2015,4,Office Supplies,Fasteners,West,31.12
+2015,4,Office Supplies,Labels,East,31.12
+2015,4,Office Supplies,Labels,West,31.12
+2015,4,Office Supplies,Paper,Central,31.12
+2015,4,Office Supplies,Paper,East,31.12
+2015,4,Office Supplies,Paper,South,31.12
+2015,4,Office Supplies,Paper,West,31.12
+2015,4,Office Supplies,Storage,Central,31.12
+2015,4,Office Supplies,Storage,East,31.12
+2015,4,Office Supplies,Storage,South,31.12
+2015,4,Office Supplies,Storage,West,31.12
+2015,4,Office Supplies,Supplies,East,31.12
+2015,4,Office Supplies,Supplies,South,31.12
+2015,4,Technology,Accessories,Central,31.12
+2015,4,Technology,Accessories,East,31.12
+2015,4,Technology,Accessories,South,31.12
+2015,4,Technology,Accessories,West,31.12
+2015,4,Technology,Machines,West,31.12
+2015,4,Technology,Phones,Central,31.12
+2015,4,Technology,Phones,East,31.12
+2015,4,Technology,Phones,South,31.12
+2015,4,Technology,Phones,West,31.12
+2015,5,Furniture,Bookcases,East,31.12
+2015,5,Furniture,Bookcases,West,31.12
+2015,5,Furniture,Chairs,Central,31.12
+2015,5,Furniture,Chairs,East,31.12
+2015,5,Furniture,Chairs,West,31.12
+2015,5,Furniture,Furnishings,Central,31.12
+2015,5,Furniture,Furnishings,East,31.12
+2015,5,Furniture,Furnishings,South,31.12
+2015,5,Furniture,Furnishings,West,31.12
+2015,5,Furniture,Tables,Central,31.12
+2015,5,Furniture,Tables,East,31.12
+2015,5,Furniture,Tables,West,31.12
+2015,5,Office Supplies,Appliances,Central,31.12
+2015,5,Office Supplies,Appliances,East,31.12
+2015,5,Office Supplies,Appliances,West,31.12
+2015,5,Office Supplies,Art,Central,31.12
+2015,5,Office Supplies,Art,East,31.12
+2015,5,Office Supplies,Art,South,31.12
+2015,5,Office Supplies,Art,West,31.12
+2015,5,Office Supplies,Binders,Central,31.12
+2015,5,Office Supplies,Binders,East,31.12
+2015,5,Office Supplies,Binders,South,31.12
+2015,5,Office Supplies,Binders,West,31.12
+2015,5,Office Supplies,Envelopes,Central,31.12
+2015,5,Office Supplies,Envelopes,West,31.12
+2015,5,Office Supplies,Fasteners,Central,31.12
+2015,5,Office Supplies,Fasteners,South,31.12
+2015,5,Office Supplies,Labels,Central,31.12
+2015,5,Office Supplies,Labels,South,31.12
+2015,5,Office Supplies,Labels,West,31.12
+2015,5,Office Supplies,Paper,Central,31.12
+2015,5,Office Supplies,Paper,East,31.12
+2015,5,Office Supplies,Paper,South,31.12
+2015,5,Office Supplies,Paper,West,31.12
+2015,5,Office Supplies,Storage,Central,31.12
+2015,5,Office Supplies,Storage,South,31.12
+2015,5,Office Supplies,Storage,West,31.12
+2015,5,Office Supplies,Supplies,East,31.12
+2015,5,Office Supplies,Supplies,South,31.12
+2015,5,Office Supplies,Supplies,West,31.12
+2015,5,Technology,Accessories,Central,31.12
+2015,5,Technology,Accessories,West,31.12
+2015,5,Technology,Copiers,Central,31.12
+2015,5,Technology,Copiers,East,31.12
+2015,5,Technology,Copiers,South,31.12
+2015,5,Technology,Phones,Central,31.12
+2015,5,Technology,Phones,East,31.12
+2015,5,Technology,Phones,South,31.12
+2015,5,Technology,Phones,West,31.12
+2015,6,Furniture,Bookcases,Central,31.12
+2015,6,Furniture,Bookcases,East,31.12
+2015,6,Furniture,Chairs,Central,31.12
+2015,6,Furniture,Chairs,East,31.12
+2015,6,Furniture,Chairs,South,31.12
+2015,6,Furniture,Chairs,West,31.12
+2015,6,Furniture,Furnishings,East,31.12
+2015,6,Furniture,Furnishings,South,31.12
+2015,6,Furniture,Furnishings,West,31.12
+2015,6,Furniture,Tables,Central,31.12
+2015,6,Furniture,Tables,East,31.12
+2015,6,Furniture,Tables,South,31.12
+2015,6,Furniture,Tables,West,31.12
+2015,6,Office Supplies,Appliances,Central,31.12
+2015,6,Office Supplies,Appliances,East,31.12
+2015,6,Office Supplies,Appliances,West,31.12
+2015,6,Office Supplies,Art,Central,31.12
+2015,6,Office Supplies,Art,East,31.12
+2015,6,Office Supplies,Art,South,31.12
+2015,6,Office Supplies,Art,West,31.12
+2015,6,Office Supplies,Binders,Central,31.12
+2015,6,Office Supplies,Binders,East,31.12
+2015,6,Office Supplies,Binders,South,31.12
+2015,6,Office Supplies,Binders,West,31.12
+2015,6,Office Supplies,Envelopes,Central,31.12
+2015,6,Office Supplies,Envelopes,East,31.12
+2015,6,Office Supplies,Fasteners,Central,31.12
+2015,6,Office Supplies,Fasteners,West,31.12
+2015,6,Office Supplies,Labels,Central,31.12
+2015,6,Office Supplies,Paper,Central,31.12
+2015,6,Office Supplies,Paper,East,31.12
+2015,6,Office Supplies,Paper,South,31.12
+2015,6,Office Supplies,Paper,West,31.12
+2015,6,Office Supplies,Storage,Central,31.12
+2015,6,Office Supplies,Storage,East,31.12
+2015,6,Office Supplies,Storage,South,31.12
+2015,6,Office Supplies,Supplies,East,31.12
+2015,6,Office Supplies,Supplies,South,31.12
+2015,6,Office Supplies,Supplies,West,31.12
+2015,6,Technology,Accessories,Central,31.12
+2015,6,Technology,Accessories,East,31.12
+2015,6,Technology,Accessories,South,31.12
+2015,6,Technology,Accessories,West,31.12
+2015,6,Technology,Machines,Central,31.12
+2015,6,Technology,Machines,East,31.12
+2015,6,Technology,Phones,Central,31.12
+2015,6,Technology,Phones,East,31.12
+2015,6,Technology,Phones,South,31.12
+2015,6,Technology,Phones,West,31.12
+2015,7,Furniture,Bookcases,West,31.12
+2015,7,Furniture,Chairs,Central,31.12
+2015,7,Furniture,Chairs,East,31.12
+2015,7,Furniture,Chairs,South,31.12
+2015,7,Furniture,Chairs,West,31.12
+2015,7,Furniture,Furnishings,Central,31.12
+2015,7,Furniture,Furnishings,East,31.12
+2015,7,Furniture,Furnishings,South,31.12
+2015,7,Furniture,Furnishings,West,31.12
+2015,7,Furniture,Tables,East,31.12
+2015,7,Furniture,Tables,West,31.12
+2015,7,Office Supplies,Appliances,Central,31.12
+2015,7,Office Supplies,Appliances,East,31.12
+2015,7,Office Supplies,Appliances,West,31.12
+2015,7,Office Supplies,Art,Central,31.12
+2015,7,Office Supplies,Art,East,31.12
+2015,7,Office Supplies,Art,South,31.12
+2015,7,Office Supplies,Art,West,31.12
+2015,7,Office Supplies,Binders,Central,31.12
+2015,7,Office Supplies,Binders,East,31.12
+2015,7,Office Supplies,Binders,South,31.12
+2015,7,Office Supplies,Binders,West,31.12
+2015,7,Office Supplies,Envelopes,Central,31.12
+2015,7,Office Supplies,Envelopes,South,31.12
+2015,7,Office Supplies,Fasteners,Central,31.12
+2015,7,Office Supplies,Fasteners,South,31.12
+2015,7,Office Supplies,Labels,East,31.12
+2015,7,Office Supplies,Labels,South,31.12
+2015,7,Office Supplies,Labels,West,31.12
+2015,7,Office Supplies,Paper,Central,31.12
+2015,7,Office Supplies,Paper,East,31.12
+2015,7,Office Supplies,Paper,South,105.234
+2015,7,Office Supplies,Paper,West,105.234
+2015,7,Office Supplies,Storage,Central,105.234
+2015,7,Office Supplies,Storage,East,105.234
+2015,7,Office Supplies,Storage,West,105.234
+2015,7,Office Supplies,Supplies,West,105.234
+2015,7,Technology,Accessories,Central,105.234
+2015,7,Technology,Accessories,East,105.234
+2015,7,Technology,Accessories,South,105.234
+2015,7,Technology,Accessories,West,105.234
+2015,7,Technology,Copiers,East,105.234
+2015,7,Technology,Phones,Central,105.234
+2015,7,Technology,Phones,East,105.234
+2015,7,Technology,Phones,South,105.234
+2015,7,Technology,Phones,West,105.234
+2015,8,Furniture,Bookcases,South,105.234
+2015,8,Furniture,Chairs,Central,105.234
+2015,8,Furniture,Chairs,East,105.234
+2015,8,Furniture,Chairs,South,105.234
+2015,8,Furniture,Chairs,West,105.234
+2015,8,Furniture,Furnishings,Central,105.234
+2015,8,Furniture,Furnishings,East,105.234
+2015,8,Furniture,Furnishings,South,105.234
+2015,8,Furniture,Furnishings,West,105.234
+2015,8,Furniture,Tables,Central,105.234
+2015,8,Furniture,Tables,East,105.234
+2015,8,Furniture,Tables,South,105.234
+2015,8,Furniture,Tables,West,105.234
+2015,8,Office Supplies,Appliances,Central,105.234
+2015,8,Office Supplies,Appliances,East,105.234
+2015,8,Office Supplies,Appliances,South,105.234
+2015,8,Office Supplies,Appliances,West,105.234
+2015,8,Office Supplies,Art,East,105.234
+2015,8,Office Supplies,Art,South,105.234
+2015,8,Office Supplies,Art,West,105.234
+2015,8,Office Supplies,Binders,Central,105.234
+2015,8,Office Supplies,Binders,East,105.234
+2015,8,Office Supplies,Binders,South,105.234
+2015,8,Office Supplies,Binders,West,105.234
+2015,8,Office Supplies,Envelopes,Central,105.234
+2015,8,Office Supplies,Envelopes,East,105.234
+2015,8,Office Supplies,Envelopes,South,105.234
+2015,8,Office Supplies,Fasteners,East,105.234
+2015,8,Office Supplies,Fasteners,South,105.234
+2015,8,Office Supplies,Fasteners,West,105.234
+2015,8,Office Supplies,Labels,South,105.234
+2015,8,Office Supplies,Labels,West,105.234
+2015,8,Office Supplies,Paper,Central,105.234
+2015,8,Office Supplies,Paper,East,105.234
+2015,8,Office Supplies,Paper,South,105.234
+2015,8,Office Supplies,Paper,West,105.234
+2015,8,Office Supplies,Storage,Central,105.234
+2015,8,Office Supplies,Storage,East,105.234
+2015,8,Office Supplies,Storage,South,105.234
+2015,8,Office Supplies,Storage,West,105.234
+2015,8,Office Supplies,Supplies,East,105.234
+2015,8,Office Supplies,Supplies,South,105.234
+2015,8,Office Supplies,Supplies,West,105.234
+2015,8,Technology,Accessories,Central,105.234
+2015,8,Technology,Accessories,East,105.234
+2015,8,Technology,Accessories,South,105.234
+2015,8,Technology,Accessories,West,105.234
+2015,8,Technology,Copiers,Central,105.234
+2015,8,Technology,Copiers,West,105.234
+2015,8,Technology,Phones,Central,105.234
+2015,8,Technology,Phones,East,105.234
+2015,8,Technology,Phones,South,105.234
+2015,8,Technology,Phones,West,105.234
+2015,9,Furniture,Bookcases,Central,105.234
+2015,9,Furniture,Bookcases,East,105.234
+2015,9,Furniture,Bookcases,West,105.234
+2015,9,Furniture,Chairs,Central,105.234
+2015,9,Furniture,Chairs,East,105.234
+2015,9,Furniture,Chairs,West,105.234
+2015,9,Furniture,Furnishings,Central,105.234
+2015,9,Furniture,Furnishings,East,105.234
+2015,9,Furniture,Furnishings,South,105.234
+2015,9,Furniture,Furnishings,West,105.234
+2015,9,Furniture,Tables,Central,105.234
+2015,9,Furniture,Tables,East,105.234
+2015,9,Furniture,Tables,West,105.234
+2015,9,Office Supplies,Appliances,Central,105.234
+2015,9,Office Supplies,Appliances,East,105.234
+2015,9,Office Supplies,Appliances,South,105.234
+2015,9,Office Supplies,Appliances,West,105.234
+2015,9,Office Supplies,Art,Central,105.234
+2015,9,Office Supplies,Art,East,105.234
+2015,9,Office Supplies,Art,South,105.234
+2015,9,Office Supplies,Art,West,105.234
+2015,9,Office Supplies,Binders,Central,105.234
+2015,9,Office Supplies,Binders,East,105.234
+2015,9,Office Supplies,Binders,South,105.234
+2015,9,Office Supplies,Binders,West,105.234
+2015,9,Office Supplies,Envelopes,Central,105.234
+2015,9,Office Supplies,Envelopes,East,105.234
+2015,9,Office Supplies,Envelopes,West,105.234
+2015,9,Office Supplies,Fasteners,Central,105.234
+2015,9,Office Supplies,Fasteners,South,105.234
+2015,9,Office Supplies,Fasteners,West,105.234
+2015,9,Office Supplies,Labels,Central,105.234
+2015,9,Office Supplies,Labels,East,105.234
+2015,9,Office Supplies,Labels,South,105.234
+2015,9,Office Supplies,Labels,West,105.234
+2015,9,Office Supplies,Paper,Central,105.234
+2015,9,Office Supplies,Paper,East,105.234
+2015,9,Office Supplies,Paper,South,105.234
+2015,9,Office Supplies,Paper,West,105.234
+2015,9,Office Supplies,Storage,Central,105.234
+2015,9,Office Supplies,Storage,East,105.234
+2015,9,Office Supplies,Storage,South,105.234
+2015,9,Office Supplies,Storage,West,105.234
+2015,9,Office Supplies,Supplies,Central,105.234
+2015,9,Office Supplies,Supplies,West,105.234
+2015,9,Technology,Accessories,Central,105.234
+2015,9,Technology,Accessories,East,105.234
+2015,9,Technology,Accessories,South,105.234
+2015,9,Technology,Accessories,West,105.234
+2015,9,Technology,Copiers,West,105.234
+2015,9,Technology,Machines,Central,105.234
+2015,9,Technology,Machines,East,105.234
+2015,9,Technology,Machines,South,105.234
+2015,9,Technology,Machines,West,105.234
+2015,9,Technology,Phones,Central,105.234
+2015,9,Technology,Phones,East,105.234
+2015,9,Technology,Phones,West,105.234
+2015,10,Furniture,Bookcases,West,105.234
+2015,10,Furniture,Chairs,Central,105.234
+2015,10,Furniture,Chairs,East,105.234
+2015,10,Furniture,Chairs,South,105.234
+2015,10,Furniture,Chairs,West,105.234
+2015,10,Furniture,Furnishings,Central,105.234
+2015,10,Furniture,Furnishings,East,105.234
+2015,10,Furniture,Furnishings,South,105.234
+2015,10,Furniture,Furnishings,West,105.234
+2015,10,Furniture,Tables,East,105.234
+2015,10,Furniture,Tables,South,105.234
+2015,10,Furniture,Tables,West,105.234
+2015,10,Office Supplies,Appliances,Central,105.234
+2015,10,Office Supplies,Appliances,East,105.234
+2015,10,Office Supplies,Appliances,West,105.234
+2015,10,Office Supplies,Art,East,105.234
+2015,10,Office Supplies,Art,South,9.032
+2015,10,Office Supplies,Art,West,439.26
+2015,10,Office Supplies,Binders,Central,52.434
+2015,10,Office Supplies,Binders,East,115.654
+2015,10,Office Supplies,Binders,South,15.18
+2015,10,Office Supplies,Binders,West,296.888
+2015,10,Office Supplies,Envelopes,East,268.424
+2015,10,Office Supplies,Envelopes,South,36.4
+2015,10,Office Supplies,Envelopes,West,35.688
+2015,10,Office Supplies,Fasteners,Central,19.416
+2015,10,Office Supplies,Fasteners,South,11.85
+2015,10,Office Supplies,Fasteners,West,20.722
+2015,10,Office Supplies,Labels,Central,29.352
+2015,10,Office Supplies,Labels,South,7.31
+2015,10,Office Supplies,Labels,West,62.44
+2015,10,Office Supplies,Paper,Central,421.016
+2015,10,Office Supplies,Paper,East,152.096
+2015,10,Office Supplies,Paper,South,121.456
+2015,10,Office Supplies,Paper,West,296.278
+2015,10,Office Supplies,Storage,Central,1211.06
+2015,10,Office Supplies,Storage,East,902.086
+2015,10,Office Supplies,Storage,South,945.79
+2015,10,Office Supplies,Storage,West,680.65
+2015,10,Office Supplies,Supplies,Central,22.24
+2015,10,Office Supplies,Supplies,West,502.38
+2015,10,Technology,Accessories,Central,441.924
+2015,10,Technology,Accessories,East,360.264
+2015,10,Technology,Accessories,South,46.432
+2015,10,Technology,Accessories,West,918.89
+2015,10,Technology,Copiers,Central,1999.96
+2015,10,Technology,Machines,East,101.994
+2015,10,Technology,Phones,Central,4469.828
+2015,10,Technology,Phones,South,1394.95
+2015,10,Technology,Phones,West,2203.776
+2015,11,Furniture,Bookcases,Central,492.1092
+2015,11,Furniture,Bookcases,East,5831.632
+2015,11,Furniture,Bookcases,West,939.9725
+2015,11,Furniture,Chairs,Central,3110.536
+2015,11,Furniture,Chairs,East,1474.134
+2015,11,Furniture,Chairs,South,149.9
+2015,11,Furniture,Chairs,West,2547.984
+2015,11,Furniture,Furnishings,Central,51.292
+2015,11,Furniture,Furnishings,East,947.826
+2015,11,Furniture,Furnishings,South,919.102
+2015,11,Furniture,Furnishings,West,471.71
+2015,11,Furniture,Tables,Central,1510.835
+2015,11,Furniture,Tables,South,945.036
+2015,11,Furniture,Tables,West,2078.972
+2015,11,Office Supplies,Appliances,Central,280.056
+2015,11,Office Supplies,Appliances,East,610.06
+2015,11,Office Supplies,Appliances,South,1066.416
+2015,11,Office Supplies,Appliances,West,677.3
+2015,11,Office Supplies,Art,Central,226.052
+2015,11,Office Supplies,Art,East,60.374
+2015,11,Office Supplies,Art,South,61.258
+2015,11,Office Supplies,Art,West,145.164
+2015,11,Office Supplies,Binders,Central,1040.446
+2015,11,Office Supplies,Binders,East,2681.625
+2015,11,Office Supplies,Binders,South,386.503
+2015,11,Office Supplies,Binders,West,2202.392
+2015,11,Office Supplies,Envelopes,Central,830.09
+2015,11,Office Supplies,Envelopes,East,159.828
+2015,11,Office Supplies,Envelopes,South,27.59
+2015,11,Office Supplies,Envelopes,West,45.312
+2015,11,Office Supplies,Fasteners,Central,12.624
+2015,11,Office Supplies,Fasteners,East,9.68
+2015,11,Office Supplies,Fasteners,South,15.896
+2015,11,Office Supplies,Fasteners,West,30.4
+2015,11,Office Supplies,Labels,Central,228.724
+2015,11,Office Supplies,Labels,East,202.09
+2015,11,Office Supplies,Labels,South,47.808
+2015,11,Office Supplies,Labels,West,130.86
+2015,11,Office Supplies,Paper,Central,592.912
+2015,11,Office Supplies,Paper,East,288.168
+2015,11,Office Supplies,Paper,South,929.66
+2015,11,Office Supplies,Paper,West,1593.15
+2015,11,Office Supplies,Storage,Central,2858.752
+2015,11,Office Supplies,Storage,East,5252.708
+2015,11,Office Supplies,Storage,South,289.454
+2015,11,Office Supplies,Storage,West,2937.73
+2015,11,Office Supplies,Supplies,Central,57.368
+2015,11,Office Supplies,Supplies,East,297.984
+2015,11,Office Supplies,Supplies,West,86.762
+2015,11,Technology,Accessories,Central,311.488
+2015,11,Technology,Accessories,East,517.472
+2015,11,Technology,Accessories,South,876.71
+2015,11,Technology,Accessories,West,1394.66
+2015,11,Technology,Machines,Central,998.85
+2015,11,Technology,Machines,East,3991.98
+2015,11,Technology,Machines,West,447.968
+2015,11,Technology,Phones,Central,1302.322
+2015,11,Technology,Phones,East,11247.634
+2015,11,Technology,Phones,South,1669.74
+2015,11,Technology,Phones,West,7314.6
+2015,12,Furniture,Bookcases,East,2799.368
+2015,12,Furniture,Bookcases,West,254.9745
+2015,12,Furniture,Chairs,Central,4845.736
+2015,12,Furniture,Chairs,East,3160.642
+2015,12,Furniture,Chairs,South,3747.66
+2015,12,Furniture,Chairs,West,5480.936
+2015,12,Furniture,Furnishings,Central,373.276
+2015,12,Furniture,Furnishings,East,591.268
+2015,12,Furniture,Furnishings,South,29.46
+2015,12,Furniture,Furnishings,West,1074.856
+2015,12,Furniture,Tables,Central,214.95
+2015,12,Furniture,Tables,East,713.61
+2015,12,Furniture,Tables,South,2699.58
+2015,12,Furniture,Tables,West,4651.026
+2015,12,Office Supplies,Appliances,Central,263.47
+2015,12,Office Supplies,Appliances,East,2081.208
+2015,12,Office Supplies,Appliances,South,43.512
+2015,12,Office Supplies,Appliances,West,637.17
+2015,12,Office Supplies,Art,Central,102.624
+2015,12,Office Supplies,Art,East,109.776
+2015,12,Office Supplies,Art,South,41.394
+2015,12,Office Supplies,Art,West,1211.314
+2015,12,Office Supplies,Binders,Central,1367.194
+2015,12,Office Supplies,Binders,East,520.648
+2015,12,Office Supplies,Binders,South,251.679
+2015,12,Office Supplies,Binders,West,2283.531
+2015,12,Office Supplies,Envelopes,Central,62.552
+2015,12,Office Supplies,Envelopes,East,379.16
+2015,12,Office Supplies,Envelopes,South,23.472
+2015,12,Office Supplies,Fasteners,Central,2.896
+2015,12,Office Supplies,Fasteners,South,1.984
+2015,12,Office Supplies,Fasteners,West,72.962
+2015,12,Office Supplies,Labels,Central,3.69
+2015,12,Office Supplies,Labels,East,51.84
+2015,12,Office Supplies,Labels,West,460.208
+2015,12,Office Supplies,Paper,Central,340.312
+2015,12,Office Supplies,Paper,East,680.92
+2015,12,Office Supplies,Paper,South,267.904
+2015,12,Office Supplies,Paper,West,776.576
+2015,12,Office Supplies,Storage,Central,576.824
+2015,12,Office Supplies,Storage,East,1630.562
+2015,12,Office Supplies,Storage,South,694.36
+2015,12,Office Supplies,Storage,West,1980.77
+2015,12,Office Supplies,Supplies,Central,2.92
+2015,12,Office Supplies,Supplies,South,7.27
+2015,12,Office Supplies,Supplies,West,25.79
+2015,12,Technology,Accessories,Central,724.514
+2015,12,Technology,Accessories,East,2368.228
+2015,12,Technology,Accessories,South,851.73
+2015,12,Technology,Accessories,West,1081.69
+2015,12,Technology,Copiers,East,1739.964
+2015,12,Technology,Machines,East,6999.96
+2015,12,Technology,Machines,West,767.952
+2015,12,Technology,Phones,Central,1426.016
+2015,12,Technology,Phones,East,870.522
+2015,12,Technology,Phones,South,95.968
+2015,12,Technology,Phones,West,3646.68
+2016,1,Furniture,Bookcases,Central,1352.3976
+2016,1,Furniture,Bookcases,East,452.45
+2016,1,Furniture,Chairs,Central,199.304
+2016,1,Furniture,Chairs,East,181.986
+2016,1,Furniture,Chairs,West,2865.504
+2016,1,Furniture,Furnishings,Central,308.084
+2016,1,Furniture,Furnishings,South,192.22
+2016,1,Furniture,Furnishings,West,769.81
+2016,1,Furniture,Tables,Central,102.438
+2016,1,Furniture,Tables,East,1018.104
+2016,1,Furniture,Tables,South,4297.644
+2016,1,Office Supplies,Appliances,South,163.44
+2016,1,Office Supplies,Appliances,West,87.36
+2016,1,Office Supplies,Art,Central,7.056
+2016,1,Office Supplies,Art,East,86.408
+2016,1,Office Supplies,Art,South,55.88
+2016,1,Office Supplies,Binders,Central,65.3
+2016,1,Office Supplies,Binders,East,13.168
+2016,1,Office Supplies,Binders,West,128.106
+2016,1,Office Supplies,Envelopes,East,17.48
+2016,1,Office Supplies,Labels,East,23.68
+2016,1,Office Supplies,Labels,South,9.82
+2016,1,Office Supplies,Labels,West,14.62
+2016,1,Office Supplies,Paper,Central,77.532
+2016,1,Office Supplies,Paper,East,20.04
+2016,1,Office Supplies,Paper,South,157.87
+2016,1,Office Supplies,Paper,West,241.36
+2016,1,Office Supplies,Storage,East,550.7
+2016,1,Office Supplies,Supplies,South,88.96
+2016,1,Technology,Accessories,Central,398.4
+2016,1,Technology,Accessories,East,99.968
+2016,1,Technology,Machines,East,1188
+2016,1,Technology,Machines,West,1919.976
+2016,1,Technology,Phones,East,911.892
+2016,2,Furniture,Bookcases,East,283.92
+2016,2,Furniture,Chairs,East,1359.702
+2016,2,Furniture,Chairs,South,551.264
+2016,2,Furniture,Chairs,West,203.92
+2016,2,Furniture,Furnishings,Central,69.184
+2016,2,Furniture,Furnishings,West,136.92
+2016,2,Furniture,Tables,East,493.92
+2016,2,Furniture,Tables,West,35.544
+2016,2,Office Supplies,Appliances,East,26.88
+2016,2,Office Supplies,Appliances,West,541.44
+2016,2,Office Supplies,Art,Central,85.12
+2016,2,Office Supplies,Art,East,322.854
+2016,2,Office Supplies,Art,West,5.28
+2016,2,Office Supplies,Binders,Central,2.934
+2016,2,Office Supplies,Binders,East,2600.957
+2016,2,Office Supplies,Binders,West,65.384
+2016,2,Office Supplies,Envelopes,South,385.67
+2016,2,Office Supplies,Fasteners,Central,5.81
+2016,2,Office Supplies,Labels,Central,40.096
+2016,2,Office Supplies,Labels,East,3.15
+2016,2,Office Supplies,Labels,West,158.01
+2016,2,Office Supplies,Paper,Central,9.54
+2016,2,Office Supplies,Paper,East,58.6
+2016,2,Office Supplies,Paper,South,42.86
+2016,2,Office Supplies,Paper,West,118.76
+2016,2,Office Supplies,Storage,Central,670.752
+2016,2,Office Supplies,Storage,East,77.24
+2016,2,Office Supplies,Storage,South,146.73
+2016,2,Technology,Accessories,Central,809.2
+2016,2,Technology,Accessories,East,71.976
+2016,2,Technology,Accessories,South,29.99
+2016,2,Technology,Accessories,West,538.92
+2016,2,Technology,Phones,Central,834.95
+2016,2,Technology,Phones,East,1163.934
+2016,3,Furniture,Bookcases,Central,2099.9964
+2016,3,Furniture,Bookcases,West,141.96
+2016,3,Furniture,Chairs,Central,1335.446
+2016,3,Furniture,Chairs,East,482.979
+2016,3,Furniture,Chairs,South,1166.92
+2016,3,Furniture,Chairs,West,1099.888
+2016,3,Furniture,Furnishings,Central,400.172
+2016,3,Furniture,Furnishings,East,33.568
+2016,3,Furniture,Furnishings,South,37.288
+2016,3,Furniture,Furnishings,West,964.93
+2016,3,Furniture,Tables,West,959.49
+2016,3,Office Supplies,Appliances,Central,241.67
+2016,3,Office Supplies,Appliances,East,3.552
+2016,3,Office Supplies,Appliances,South,969.072
+2016,3,Office Supplies,Appliances,West,73.28
+2016,3,Office Supplies,Art,Central,80.468
+2016,3,Office Supplies,Art,East,17.52
+2016,3,Office Supplies,Art,South,36.2
+2016,3,Office Supplies,Art,West,3.408
+2016,3,Office Supplies,Binders,Central,37.516
+2016,3,Office Supplies,Binders,East,774.216
+2016,3,Office Supplies,Binders,South,6426.513
+2016,3,Office Supplies,Binders,West,17.568
+2016,3,Office Supplies,Envelopes,Central,101.88
+2016,3,Office Supplies,Envelopes,East,52.26
+2016,3,Office Supplies,Envelopes,South,16.068
+2016,3,Office Supplies,Fasteners,Central,25.968
+2016,3,Office Supplies,Fasteners,South,31.56
+2016,3,Office Supplies,Fasteners,West,10.9
+2016,3,Office Supplies,Labels,East,16.52
+2016,3,Office Supplies,Labels,South,501.198
+2016,3,Office Supplies,Labels,West,14.62
+2016,3,Office Supplies,Paper,Central,173.736
+2016,3,Office Supplies,Paper,East,97.896
+2016,3,Office Supplies,Paper,South,384.304
+2016,3,Office Supplies,Paper,West,868.75
+2016,3,Office Supplies,Storage,Central,189.984
+2016,3,Office Supplies,Storage,East,687.04
+2016,3,Office Supplies,Storage,South,225.068
+2016,3,Office Supplies,Storage,West,1360.644
+2016,3,Office Supplies,Supplies,West,33.36
+2016,3,Technology,Accessories,Central,131.912
+2016,3,Technology,Accessories,East,161.958
+2016,3,Technology,Accessories,South,447.944
+2016,3,Technology,Accessories,West,459.46
+2016,3,Technology,Copiers,West,4269.914
+2016,3,Technology,Phones,Central,1462.47
+2016,3,Technology,Phones,East,1140.028
+2016,3,Technology,Phones,South,79.96
+2016,3,Technology,Phones,West,1990.296
+2016,4,Furniture,Bookcases,East,352.45
+2016,4,Furniture,Bookcases,South,523.26
+2016,4,Furniture,Chairs,Central,896.271
+2016,4,Furniture,Chairs,East,1395.294
+2016,4,Furniture,Chairs,South,1023.896
+2016,4,Furniture,Chairs,West,956.16
+2016,4,Furniture,Furnishings,Central,6.16
+2016,4,Furniture,Furnishings,East,728.3
+2016,4,Furniture,Furnishings,South,2221.048
+2016,4,Furniture,Furnishings,West,37.68
+2016,4,Furniture,Tables,Central,821.352
+2016,4,Furniture,Tables,South,191.5155
+2016,4,Furniture,Tables,West,1322.312
+2016,4,Office Supplies,Appliances,Central,1626.868
+2016,4,Office Supplies,Appliances,East,1126.498
+2016,4,Office Supplies,Appliances,West,1602.258
+2016,4,Office Supplies,Art,Central,182.022
+2016,4,Office Supplies,Art,East,104.878
+2016,4,Office Supplies,Art,South,2.624
+2016,4,Office Supplies,Art,West,187.71
+2016,4,Office Supplies,Binders,Central,4235.44
+2016,4,Office Supplies,Binders,East,219.626
+2016,4,Office Supplies,Binders,South,188.234
+2016,4,Office Supplies,Binders,West,77.128
+2016,4,Office Supplies,Envelopes,Central,180.96
+2016,4,Office Supplies,Envelopes,West,21.34
+2016,4,Office Supplies,Fasteners,Central,5.84
+2016,4,Office Supplies,Fasteners,East,24.44
+2016,4,Office Supplies,Labels,Central,75.18
+2016,4,Office Supplies,Labels,East,45.834
+2016,4,Office Supplies,Paper,Central,140.976
+2016,4,Office Supplies,Paper,East,40.368
+2016,4,Office Supplies,Paper,South,60.912
+2016,4,Office Supplies,Paper,West,212.6
+2016,4,Office Supplies,Storage,Central,244.856
+2016,4,Office Supplies,Storage,East,746.368
+2016,4,Office Supplies,Storage,South,72.784
+2016,4,Office Supplies,Storage,West,1073.354
+2016,4,Office Supplies,Supplies,West,18.72
+2016,4,Technology,Accessories,Central,592.52
+2016,4,Technology,Accessories,East,184.74
+2016,4,Technology,Accessories,South,106.5
+2016,4,Technology,Accessories,West,763.27
+2016,4,Technology,Copiers,Central,2039.948
+2016,4,Technology,Copiers,West,639.968
+2016,4,Technology,Machines,East,1379.92
+2016,4,Technology,Machines,West,71.976
+2016,4,Technology,Phones,Central,593.662
+2016,4,Technology,Phones,East,1430.08
+2016,4,Technology,Phones,South,1327.56
+2016,4,Technology,Phones,West,2030.808
+2016,5,Furniture,Bookcases,West,1916.8175
+2016,5,Furniture,Chairs,Central,3381.107
+2016,5,Furniture,Chairs,East,1288.938
+2016,5,Furniture,Chairs,West,1011.888
+2016,5,Furniture,Furnishings,Central,295.106
+2016,5,Furniture,Furnishings,East,186.64
+2016,5,Furniture,Furnishings,South,226.688
+2016,5,Furniture,Furnishings,West,823.76
+2016,5,Furniture,Tables,Central,244.006
+2016,5,Office Supplies,Appliances,Central,942.238
+2016,5,Office Supplies,Appliances,East,202.216
+2016,5,Office Supplies,Appliances,West,967.52
+2016,5,Office Supplies,Art,Central,183.954
+2016,5,Office Supplies,Art,East,308.692
+2016,5,Office Supplies,Art,South,182.976
+2016,5,Office Supplies,Art,West,20.698
+2016,5,Office Supplies,Binders,Central,216.44
+2016,5,Office Supplies,Binders,East,54.168
+2016,5,Office Supplies,Binders,South,55.218
+2016,5,Office Supplies,Binders,West,366.61
+2016,5,Office Supplies,Envelopes,East,200.984
+2016,5,Office Supplies,Envelopes,South,216.854
+2016,5,Office Supplies,Fasteners,Central,16
+2016,5,Office Supplies,Fasteners,East,15.6
+2016,5,Office Supplies,Labels,Central,27.15
+2016,5,Office Supplies,Labels,East,158.106
+2016,5,Office Supplies,Labels,West,24.01
+2016,5,Office Supplies,Paper,Central,363.784
+2016,5,Office Supplies,Paper,East,385.508
+2016,5,Office Supplies,Paper,South,217.68
+2016,5,Office Supplies,Paper,West,245.68
+2016,5,Office Supplies,Storage,East,908.18
+2016,5,Office Supplies,Storage,West,2204.58
+2016,5,Office Supplies,Supplies,Central,22.368
+2016,5,Office Supplies,Supplies,East,357.93
+2016,5,Office Supplies,Supplies,South,41.376
+2016,5,Office Supplies,Supplies,West,35.06
+2016,5,Technology,Accessories,Central,207.984
+2016,5,Technology,Accessories,East,27.552
+2016,5,Technology,Accessories,South,575.872
+2016,5,Technology,Accessories,West,386.648
+2016,5,Technology,Copiers,East,2799.944
+2016,5,Technology,Machines,Central,399.54
+2016,5,Technology,Machines,West,2973.32
+2016,5,Technology,Phones,Central,2324.226
+2016,5,Technology,Phones,East,414.81
+2016,5,Technology,Phones,South,467.04
+2016,5,Technology,Phones,West,1066.064
+2016,6,Furniture,Bookcases,East,482.94
+2016,6,Furniture,Chairs,Central,197.372
+2016,6,Furniture,Chairs,East,1640.52
+2016,6,Furniture,Chairs,South,2099.996
+2016,6,Furniture,Furnishings,Central,75.384
+2016,6,Furniture,Furnishings,East,149.752
+2016,6,Furniture,Furnishings,South,166.092
+2016,6,Furniture,Furnishings,West,1932.49
+2016,6,Furniture,Tables,Central,796.425
+2016,6,Office Supplies,Appliances,Central,143.128
+2016,6,Office Supplies,Art,East,11.44
+2016,6,Office Supplies,Art,South,155.48
+2016,6,Office Supplies,Art,West,82.2
+2016,6,Office Supplies,Binders,Central,416.184
+2016,6,Office Supplies,Binders,East,4324.356
+2016,6,Office Supplies,Binders,South,780.317
+2016,6,Office Supplies,Binders,West,146.588
+2016,6,Office Supplies,Envelopes,Central,28.752
+2016,6,Office Supplies,Envelopes,East,6.208
+2016,6,Office Supplies,Envelopes,West,186.69
+2016,6,Office Supplies,Fasteners,West,10.39
+2016,6,Office Supplies,Labels,Central,33.518
+2016,6,Office Supplies,Labels,East,5.904
+2016,6,Office Supplies,Labels,West,13.284
+2016,6,Office Supplies,Paper,Central,140.928
+2016,6,Office Supplies,Paper,East,191.768
+2016,6,Office Supplies,Paper,South,92.016
+2016,6,Office Supplies,Paper,West,39.76
+2016,6,Office Supplies,Storage,Central,253.48
+2016,6,Office Supplies,Storage,East,108.156
+2016,6,Office Supplies,Storage,South,2065.892
+2016,6,Office Supplies,Storage,West,386.598
+2016,6,Technology,Accessories,Central,44.276
+2016,6,Technology,Accessories,East,387.964
+2016,6,Technology,Accessories,South,212.972
+2016,6,Technology,Accessories,West,1109.95
+2016,6,Technology,Copiers,South,899.97
+2016,6,Technology,Phones,Central,1583.74
+2016,6,Technology,Phones,East,133.98
+2016,6,Technology,Phones,South,881.514
+2016,6,Technology,Phones,West,1181
+2016,7,Furniture,Bookcases,Central,1298.374
+2016,7,Furniture,Bookcases,East,301.96
+2016,7,Furniture,Bookcases,South,231.92
+2016,7,Furniture,Bookcases,West,1028.13
+2016,7,Furniture,Chairs,Central,1330.025
+2016,7,Furniture,Chairs,East,2423.508
+2016,7,Furniture,Chairs,South,70.98
+2016,7,Furniture,Chairs,West,3489.048
+2016,7,Furniture,Furnishings,Central,7.76
+2016,7,Furniture,Furnishings,East,1247.056
+2016,7,Furniture,Furnishings,South,190.636
+2016,7,Furniture,Furnishings,West,5.28
+2016,7,Furniture,Tables,East,1290.618
+2016,7,Furniture,Tables,South,358.58
+2016,7,Furniture,Tables,West,393.165
+2016,7,Office Supplies,Appliances,Central,81.416
+2016,7,Office Supplies,Appliances,East,68.94
+2016,7,Office Supplies,Art,Central,6.912
+2016,7,Office Supplies,Art,East,122.84
+2016,7,Office Supplies,Art,South,5.16
+2016,7,Office Supplies,Art,West,99.2
+2016,7,Office Supplies,Binders,Central,65.376
+2016,7,Office Supplies,Binders,East,681.608
+2016,7,Office Supplies,Binders,South,235.272
+2016,7,Office Supplies,Binders,West,209.711
+2016,7,Office Supplies,Envelopes,Central,106.75
+2016,7,Office Supplies,Envelopes,East,137.25
+2016,7,Office Supplies,Envelopes,South,98.46
+2016,7,Office Supplies,Envelopes,West,167.86
+2016,7,Office Supplies,Fasteners,Central,14.432
+2016,7,Office Supplies,Fasteners,East,27.32
+2016,7,Office Supplies,Fasteners,West,9.42
+2016,7,Office Supplies,Labels,Central,6.264
+2016,7,Office Supplies,Labels,East,12.39
+2016,7,Office Supplies,Labels,South,306.714
+2016,7,Office Supplies,Paper,Central,156.508
+2016,7,Office Supplies,Paper,East,143.02
+2016,7,Office Supplies,Paper,South,75.776
+2016,7,Office Supplies,Paper,West,61.426
+2016,7,Office Supplies,Storage,Central,742.056
+2016,7,Office Supplies,Storage,East,738.836
+2016,7,Office Supplies,Storage,West,272.736
+2016,7,Office Supplies,Supplies,Central,52.59
+2016,7,Technology,Accessories,Central,831.2
+2016,7,Technology,Accessories,East,2944.35
+2016,7,Technology,Accessories,South,519.56
+2016,7,Technology,Accessories,West,729.89
+2016,7,Technology,Machines,East,464.97
+2016,7,Technology,Phones,Central,2905.904
+2016,7,Technology,Phones,East,1110.932
+2016,7,Technology,Phones,South,104.21
+2016,7,Technology,Phones,West,623.96
+2016,8,Furniture,Bookcases,Central,1056.5992
+2016,8,Furniture,Bookcases,East,301.47
+2016,8,Furniture,Bookcases,West,2446.895
+2016,8,Furniture,Chairs,East,709.438
+2016,8,Furniture,Chairs,West,729.576
+2016,8,Furniture,Furnishings,Central,255.684
+2016,8,Furniture,Furnishings,East,358.466
+2016,8,Furniture,Furnishings,South,46.152
+2016,8,Furniture,Furnishings,West,139.95
+2016,8,Furniture,Tables,Central,1644.716
+2016,8,Furniture,Tables,East,667.17
+2016,8,Furniture,Tables,West,1282.476
+2016,8,Office Supplies,Appliances,Central,5.768
+2016,8,Office Supplies,Appliances,East,191.5
+2016,8,Office Supplies,Appliances,South,568.8
+2016,8,Office Supplies,Appliances,West,239.432
+2016,8,Office Supplies,Art,Central,31.99
+2016,8,Office Supplies,Art,East,174.94
+2016,8,Office Supplies,Art,South,117.96
+2016,8,Office Supplies,Art,West,77.248
+2016,8,Office Supplies,Binders,Central,118.624
+2016,8,Office Supplies,Binders,East,1886.642
+2016,8,Office Supplies,Binders,South,5.64
+2016,8,Office Supplies,Binders,West,226.416
+2016,8,Office Supplies,Fasteners,Central,12.032
+2016,8,Office Supplies,Fasteners,East,10.65
+2016,8,Office Supplies,Labels,Central,80.67
+2016,8,Office Supplies,Labels,East,6.912
+2016,8,Office Supplies,Labels,South,38.308
+2016,8,Office Supplies,Labels,West,8.12
+2016,8,Office Supplies,Paper,Central,115.248
+2016,8,Office Supplies,Paper,East,366.428
+2016,8,Office Supplies,Paper,South,313.08
+2016,8,Office Supplies,Paper,West,609.972
+2016,8,Office Supplies,Storage,Central,1778.98
+2016,8,Office Supplies,Storage,East,2078.44
+2016,8,Office Supplies,Storage,West,2580.16
+2016,8,Office Supplies,Supplies,Central,54.72
+2016,8,Office Supplies,Supplies,East,3.488
+2016,8,Office Supplies,Supplies,West,32.94
+2016,8,Technology,Accessories,Central,114.52
+2016,8,Technology,Accessories,East,526.684
+2016,8,Technology,Accessories,South,331.87
+2016,8,Technology,Accessories,West,319.39
+2016,8,Technology,Copiers,Central,2799.96
+2016,8,Technology,Machines,South,3080
+2016,8,Technology,Machines,West,798.376
+2016,8,Technology,Phones,Central,1231.94
+2016,8,Technology,Phones,East,2101.554
+2016,8,Technology,Phones,South,1082.94
+2016,8,Technology,Phones,West,3057.408
+2016,9,Furniture,Bookcases,Central,194.32
+2016,9,Furniture,Bookcases,East,9724.398
+2016,9,Furniture,Bookcases,South,61.96
+2016,9,Furniture,Bookcases,West,704.531
+2016,9,Furniture,Chairs,Central,3321.774
+2016,9,Furniture,Chairs,East,1177.79
+2016,9,Furniture,Chairs,South,3264.4
+2016,9,Furniture,Chairs,West,1038.24
+2016,9,Furniture,Furnishings,Central,57.312
+2016,9,Furniture,Furnishings,East,553.46
+2016,9,Furniture,Furnishings,South,338.91
+2016,9,Furniture,Furnishings,West,866.042
+2016,9,Furniture,Tables,East,852.81
+2016,9,Furniture,Tables,South,801.96
+2016,9,Furniture,Tables,West,2127.516
+2016,9,Office Supplies,Appliances,East,612.53
+2016,9,Office Supplies,Appliances,West,1553.202
+2016,9,Office Supplies,Art,Central,195.454
+2016,9,Office Supplies,Art,East,148.072
+2016,9,Office Supplies,Art,South,143.552
+2016,9,Office Supplies,Art,West,633.49
+2016,9,Office Supplies,Binders,Central,88.436
+2016,9,Office Supplies,Binders,East,898.579
+2016,9,Office Supplies,Binders,South,1462.793
+2016,9,Office Supplies,Binders,West,388.157
+2016,9,Office Supplies,Envelopes,Central,7.824
+2016,9,Office Supplies,Envelopes,East,98.796
+2016,9,Office Supplies,Envelopes,South,369.344
+2016,9,Office Supplies,Envelopes,West,154.476
+2016,9,Office Supplies,Fasteners,East,42.92
+2016,9,Office Supplies,Fasteners,South,7.24
+2016,9,Office Supplies,Fasteners,West,12.412
+2016,9,Office Supplies,Labels,Central,7.5
+2016,9,Office Supplies,Labels,East,176.484
+2016,9,Office Supplies,Labels,South,12
+2016,9,Office Supplies,Labels,West,21.24
+2016,9,Office Supplies,Paper,Central,77.7
+2016,9,Office Supplies,Paper,East,597.64
+2016,9,Office Supplies,Paper,South,591.442
+2016,9,Office Supplies,Paper,West,699.856
+2016,9,Office Supplies,Storage,Central,190.86
+2016,9,Office Supplies,Storage,East,4247.378
+2016,9,Office Supplies,Storage,South,2371.778
+2016,9,Office Supplies,Storage,West,2306.022
+2016,9,Office Supplies,Supplies,Central,69.12
+2016,9,Office Supplies,Supplies,East,721.848
+2016,9,Office Supplies,Supplies,West,122.91
+2016,9,Technology,Accessories,Central,485.536
+2016,9,Technology,Accessories,East,2961.666
+2016,9,Technology,Accessories,South,1490.598
+2016,9,Technology,Accessories,West,638.63
+2016,9,Technology,Copiers,East,1359.968
+2016,9,Technology,Copiers,West,959.984
+2016,9,Technology,Machines,East,629.93
+2016,9,Technology,Phones,Central,2882.684
+2016,9,Technology,Phones,East,4596.738
+2016,9,Technology,Phones,South,2675.53
+2016,9,Technology,Phones,West,335.864
+2016,10,Furniture,Bookcases,East,1560.978
+2016,10,Furniture,Bookcases,West,612.793
+2016,10,Furniture,Chairs,Central,2843.4
+2016,10,Furniture,Chairs,East,291.1
+2016,10,Furniture,Chairs,South,680.88
+2016,10,Furniture,Chairs,West,2926.016
+2016,10,Furniture,Furnishings,Central,221.296
+2016,10,Furniture,Furnishings,East,64.944
+2016,10,Furniture,Furnishings,South,57.21
+2016,10,Furniture,Furnishings,West,273.31
+2016,10,Furniture,Tables,Central,347.361
+2016,10,Furniture,Tables,East,209.67
+2016,10,Furniture,Tables,South,957.5775
+2016,10,Furniture,Tables,West,617.952
+2016,10,Office Supplies,Appliances,Central,372.477
+2016,10,Office Supplies,Appliances,South,211.75
+2016,10,Office Supplies,Appliances,West,1844.58
+2016,10,Office Supplies,Art,Central,11.456
+2016,10,Office Supplies,Art,East,22.68
+2016,10,Office Supplies,Art,South,94.264
+2016,10,Office Supplies,Art,West,144.85
+2016,10,Office Supplies,Binders,Central,74.36
+2016,10,Office Supplies,Binders,East,88.8
+2016,10,Office Supplies,Binders,South,20.466
+2016,10,Office Supplies,Binders,West,578.653
+2016,10,Office Supplies,Envelopes,Central,62.424
+2016,10,Office Supplies,Envelopes,East,131.08
+2016,10,Office Supplies,Envelopes,South,10.67
+2016,10,Office Supplies,Envelopes,West,251.67
+2016,10,Office Supplies,Fasteners,West,17.45
+2016,10,Office Supplies,Labels,West,579.724
+2016,10,Office Supplies,Paper,Central,128.288
+2016,10,Office Supplies,Paper,East,269.786
+2016,10,Office Supplies,Paper,West,260.144
+2016,10,Office Supplies,Storage,East,92.558
+2016,10,Office Supplies,Storage,South,1901.422
+2016,10,Office Supplies,Storage,West,1362.044
+2016,10,Office Supplies,Supplies,Central,70.12
+2016,10,Office Supplies,Supplies,West,40.644
+2016,10,Technology,Accessories,Central,1360.254
+2016,10,Technology,Accessories,East,534.974
+2016,10,Technology,Accessories,West,729.23
+2016,10,Technology,Copiers,Central,479.976
+2016,10,Technology,Copiers,West,439.992
+2016,10,Technology,Machines,East,1035.8
+2016,10,Technology,Machines,West,59.994
+2016,10,Technology,Phones,Central,1029.074
+2016,10,Technology,Phones,East,1999.66
+2016,10,Technology,Phones,South,151.488
+2016,10,Technology,Phones,West,2884.448
+2016,11,Furniture,Bookcases,Central,860.132
+2016,11,Furniture,Bookcases,East,5743.306
+2016,11,Furniture,Bookcases,South,290.352
+2016,11,Furniture,Bookcases,West,800.223
+2016,11,Furniture,Chairs,Central,2732.77
+2016,11,Furniture,Chairs,East,6746.772
+2016,11,Furniture,Chairs,South,877.056
+2016,11,Furniture,Chairs,West,2386.56
+2016,11,Furniture,Furnishings,Central,495.852
+2016,11,Furniture,Furnishings,East,912.324
+2016,11,Furniture,Furnishings,South,1294.692
+2016,11,Furniture,Furnishings,West,847.01
+2016,11,Furniture,Tables,Central,2099.002
+2016,11,Furniture,Tables,East,1698.772
+2016,11,Furniture,Tables,South,677.4175
+2016,11,Furniture,Tables,West,1735.26
+2016,11,Office Supplies,Appliances,Central,1507.856
+2016,11,Office Supplies,Appliances,East,3148.37
+2016,11,Office Supplies,Appliances,South,1553.748
+2016,11,Office Supplies,Appliances,West,401.992
+2016,11,Office Supplies,Art,Central,201.724
+2016,11,Office Supplies,Art,East,280.63
+2016,11,Office Supplies,Art,South,318.64
+2016,11,Office Supplies,Art,West,225.66
+2016,11,Office Supplies,Binders,Central,234.79
+2016,11,Office Supplies,Binders,East,553.013
+2016,11,Office Supplies,Binders,South,1617.858
+2016,11,Office Supplies,Binders,West,679.887
+2016,11,Office Supplies,Envelopes,Central,256.716
+2016,11,Office Supplies,Envelopes,East,131
+2016,11,Office Supplies,Envelopes,South,123.32
+2016,11,Office Supplies,Envelopes,West,7.08
+2016,11,Office Supplies,Fasteners,East,42.94
+2016,11,Office Supplies,Fasteners,South,86.608
+2016,11,Office Supplies,Fasteners,West,21.24
+2016,11,Office Supplies,Labels,Central,31.52
+2016,11,Office Supplies,Labels,South,5.04
+2016,11,Office Supplies,Labels,West,85.54
+2016,11,Office Supplies,Paper,Central,1246.482
+2016,11,Office Supplies,Paper,East,596.432
+2016,11,Office Supplies,Paper,South,115.296
+2016,11,Office Supplies,Paper,West,896.6
+2016,11,Office Supplies,Storage,Central,3755.17
+2016,11,Office Supplies,Storage,East,1224.626
+2016,11,Office Supplies,Storage,South,102.4
+2016,11,Office Supplies,Storage,West,1633.4
+2016,11,Office Supplies,Supplies,Central,49.64
+2016,11,Office Supplies,Supplies,East,43.08
+2016,11,Technology,Accessories,Central,1442.148
+2016,11,Technology,Accessories,East,2859.654
+2016,11,Technology,Accessories,South,195.936
+2016,11,Technology,Accessories,West,1758.984
+2016,11,Technology,Copiers,Central,1589.972
+2016,11,Technology,Machines,Central,851.798
+2016,11,Technology,Machines,East,6965.7
+2016,11,Technology,Machines,South,32.985
+2016,11,Technology,Phones,Central,1547.514
+2016,11,Technology,Phones,East,3778.142
+2016,11,Technology,Phones,South,504.472
+2016,11,Technology,Phones,West,2346.296
+2016,12,Furniture,Bookcases,Central,1052.4372
+2016,12,Furniture,Bookcases,East,449.568
+2016,12,Furniture,Bookcases,South,131.104
+2016,12,Furniture,Bookcases,West,1019.133
+2016,12,Furniture,Chairs,Central,1671.036
+2016,12,Furniture,Chairs,East,2311.245
+2016,12,Furniture,Chairs,South,381.344
+2016,12,Furniture,Chairs,West,5913.36
+2016,12,Furniture,Furnishings,Central,336.566
+2016,12,Furniture,Furnishings,East,1028.024
+2016,12,Furniture,Furnishings,South,433.664
+2016,12,Furniture,Furnishings,West,732.348
+2016,12,Furniture,Tables,Central,801.96
+2016,12,Furniture,Tables,East,2653.742
+2016,12,Furniture,Tables,West,3896.72
+2016,12,Office Supplies,Appliances,Central,53.088
+2016,12,Office Supplies,Appliances,East,1297.656
+2016,12,Office Supplies,Appliances,South,383.53
+2016,12,Office Supplies,Appliances,West,414.124
+2016,12,Office Supplies,Art,Central,146.004
+2016,12,Office Supplies,Art,East,106.412
+2016,12,Office Supplies,Art,South,104.384
+2016,12,Office Supplies,Art,West,555.246
+2016,12,Office Supplies,Binders,Central,335.188
+2016,12,Office Supplies,Binders,East,970.436
+2016,12,Office Supplies,Binders,South,2537.182
+2016,12,Office Supplies,Binders,West,879.888
+2016,12,Office Supplies,Envelopes,Central,125.552
+2016,12,Office Supplies,Envelopes,East,37.812
+2016,12,Office Supplies,Envelopes,South,188.668
+2016,12,Office Supplies,Envelopes,West,566.32
+2016,12,Office Supplies,Fasteners,Central,8.528
+2016,12,Office Supplies,Fasteners,East,27.784
+2016,12,Office Supplies,Fasteners,West,57.74
+2016,12,Office Supplies,Labels,Central,2.61
+2016,12,Office Supplies,Labels,East,35.782
+2016,12,Office Supplies,Labels,South,235.964
+2016,12,Office Supplies,Labels,West,67.43
+2016,12,Office Supplies,Paper,Central,847.932
+2016,12,Office Supplies,Paper,East,1104.768
+2016,12,Office Supplies,Paper,South,36.288
+2016,12,Office Supplies,Paper,West,971.422
+2016,12,Office Supplies,Storage,Central,505.336
+2016,12,Office Supplies,Storage,East,680.344
+2016,12,Office Supplies,Storage,South,84.192
+2016,12,Office Supplies,Storage,West,2700.064
+2016,12,Office Supplies,Supplies,Central,5.888
+2016,12,Office Supplies,Supplies,West,25.76
+2016,12,Technology,Accessories,Central,1377.278
+2016,12,Technology,Accessories,East,7069.96
+2016,12,Technology,Accessories,South,230.292
+2016,12,Technology,Accessories,West,3241.39
+2016,12,Technology,Copiers,Central,5899.91
+2016,12,Technology,Copiers,East,799.984
+2016,12,Technology,Copiers,West,1199.96
+2016,12,Technology,Machines,Central,600.53
+2016,12,Technology,Machines,East,2762.322
+2016,12,Technology,Machines,West,2548.56
+2016,12,Technology,Phones,Central,2967.758
+2016,12,Technology,Phones,East,3336.568
+2016,12,Technology,Phones,South,573.668
+2016,12,Technology,Phones,West,3023.848
+2017,1,Furniture,Bookcases,Central,1565.88
+2017,1,Furniture,Bookcases,East,173.94
+2017,1,Furniture,Bookcases,South,451.136
+2017,1,Furniture,Bookcases,West,48.58
+2017,1,Furniture,Chairs,West,1602.224
+2017,1,Furniture,Furnishings,Central,23.076
+2017,1,Furniture,Furnishings,East,438.73
+2017,1,Furniture,Furnishings,South,330.048
+2017,1,Furniture,Furnishings,West,274.66
+2017,1,Furniture,Tables,Central,2218.95
+2017,1,Furniture,Tables,East,495.519
+2017,1,Office Supplies,Appliances,South,64.864
+2017,1,Office Supplies,Art,East,26.582
+2017,1,Office Supplies,Art,South,52.864
+2017,1,Office Supplies,Art,West,74.26
+2017,1,Office Supplies,Binders,Central,119.658
+2017,1,Office Supplies,Binders,East,223.572
+2017,1,Office Supplies,Binders,South,1333.178
+2017,1,Office Supplies,Binders,West,79.888
+2017,1,Office Supplies,Envelopes,East,92.22
+2017,1,Office Supplies,Envelopes,South,125.36
+2017,1,Office Supplies,Fasteners,East,7.56
+2017,1,Office Supplies,Labels,West,91.06
+2017,1,Office Supplies,Paper,Central,197.984
+2017,1,Office Supplies,Paper,East,238.964
+2017,1,Office Supplies,Paper,South,89.568
+2017,1,Office Supplies,Paper,West,69.66
+2017,1,Office Supplies,Storage,East,1992.97
+2017,1,Office Supplies,Storage,West,419.47
+2017,1,Technology,Accessories,Central,195.68
+2017,1,Technology,Accessories,East,812.086
+2017,1,Technology,Accessories,South,507.472
+2017,1,Technology,Accessories,West,510.5
+2017,1,Technology,Copiers,South,959.968
+2017,1,Technology,Phones,Central,1620.928
+2017,1,Technology,Phones,East,357.944
+2017,1,Technology,Phones,South,167.968
+2017,1,Technology,Phones,West,487.52
+2017,2,Furniture,Bookcases,South,239.98
+2017,2,Furniture,Chairs,Central,304.458
+2017,2,Furniture,Chairs,East,554.606
+2017,2,Furniture,Chairs,South,866.4
+2017,2,Furniture,Furnishings,Central,89.976
+2017,2,Furniture,Furnishings,East,259.77
+2017,2,Furniture,Furnishings,South,487.834
+2017,2,Furniture,Furnishings,West,14.368
+2017,2,Furniture,Tables,East,550.431
+2017,2,Furniture,Tables,West,557.728
+2017,2,Office Supplies,Appliances,Central,582.384
+2017,2,Office Supplies,Appliances,East,170.88
+2017,2,Office Supplies,Art,East,119.084
+2017,2,Office Supplies,Art,South,264.18
+2017,2,Office Supplies,Binders,Central,56.82
+2017,2,Office Supplies,Binders,East,398.352
+2017,2,Office Supplies,Binders,South,96.742
+2017,2,Office Supplies,Binders,West,49.808
+2017,2,Office Supplies,Envelopes,East,104.296
+2017,2,Office Supplies,Envelopes,South,167.96
+2017,2,Office Supplies,Fasteners,Central,6.976
+2017,2,Office Supplies,Fasteners,East,45.2
+2017,2,Office Supplies,Fasteners,South,9.45
+2017,2,Office Supplies,Fasteners,West,10.65
+2017,2,Office Supplies,Labels,East,8.67
+2017,2,Office Supplies,Labels,South,7.83
+2017,2,Office Supplies,Labels,West,14.73
+2017,2,Office Supplies,Paper,Central,5.184
+2017,2,Office Supplies,Paper,East,35.122
+2017,2,Office Supplies,Paper,South,830.676
+2017,2,Office Supplies,Paper,West,323.22
+2017,2,Office Supplies,Storage,East,657.27
+2017,2,Office Supplies,Storage,South,2074.446
+2017,2,Office Supplies,Storage,West,728.71
+2017,2,Office Supplies,Supplies,East,25.71
+2017,2,Technology,Accessories,East,89.97
+2017,2,Technology,Accessories,South,100
+2017,2,Technology,Accessories,West,171.06
+2017,2,Technology,Machines,South,8749.95
+2017,2,Technology,Phones,Central,69.93
+2017,2,Technology,Phones,East,130.46
+2017,2,Technology,Phones,South,1717.656
+2017,2,Technology,Phones,West,1229.888
+2017,3,Furniture,Bookcases,Central,241.332
+2017,3,Furniture,Bookcases,East,778.229
+2017,3,Furniture,Bookcases,West,72.294
+2017,3,Furniture,Chairs,Central,1935.976
+2017,3,Furniture,Chairs,East,1069.576
+2017,3,Furniture,Chairs,West,2487.056
+2017,3,Furniture,Furnishings,Central,175.78
+2017,3,Furniture,Furnishings,East,1586.616
+2017,3,Furniture,Furnishings,South,453.77
+2017,3,Furniture,Furnishings,West,63.56
+2017,3,Furniture,Tables,Central,2137.993
+2017,3,Furniture,Tables,East,1080.598
+2017,3,Furniture,Tables,South,189.882
+2017,3,Office Supplies,Appliances,Central,209.478
+2017,3,Office Supplies,Appliances,East,901.95
+2017,3,Office Supplies,Appliances,South,1032.12
+2017,3,Office Supplies,Appliances,West,312.82
+2017,3,Office Supplies,Art,Central,174.18
+2017,3,Office Supplies,Art,East,117.856
+2017,3,Office Supplies,Art,West,16.99
+2017,3,Office Supplies,Binders,Central,160.884
+2017,3,Office Supplies,Binders,East,749.884
+2017,3,Office Supplies,Binders,South,109.626
+2017,3,Office Supplies,Binders,West,141.195
+2017,3,Office Supplies,Envelopes,Central,332.304
+2017,3,Office Supplies,Envelopes,East,229.24
+2017,3,Office Supplies,Envelopes,West,30.56
+2017,3,Office Supplies,Fasteners,Central,2.304
+2017,3,Office Supplies,Fasteners,East,5.984
+2017,3,Office Supplies,Labels,South,10.08
+2017,3,Office Supplies,Paper,Central,186.056
+2017,3,Office Supplies,Paper,East,289.78
+2017,3,Office Supplies,Paper,South,378.4
+2017,3,Office Supplies,Paper,West,89.604
+2017,3,Office Supplies,Storage,Central,12.992
+2017,3,Office Supplies,Storage,East,1512.72
+2017,3,Office Supplies,Storage,South,580.36
+2017,3,Office Supplies,Storage,West,869.166
+2017,3,Office Supplies,Supplies,Central,3930.072
+2017,3,Office Supplies,Supplies,West,4937.94
+2017,3,Technology,Accessories,Central,1403.11
+2017,3,Technology,Accessories,East,895.642
+2017,3,Technology,Accessories,South,119.976
+2017,3,Technology,Accessories,West,85.43
+2017,3,Technology,Machines,Central,287.91
+2017,3,Technology,Machines,East,5349.03
+2017,3,Technology,Machines,West,3357.6
+2017,3,Technology,Phones,Central,1412.626
+2017,3,Technology,Phones,East,2197.752
+2017,3,Technology,Phones,South,1363.96
+2017,3,Technology,Phones,West,5094.816
+2017,4,Furniture,Bookcases,East,388.704
+2017,4,Furniture,Bookcases,South,354.9
+2017,4,Furniture,Bookcases,West,814.164
+2017,4,Furniture,Chairs,Central,1895.256
+2017,4,Furniture,Chairs,East,2410.884
+2017,4,Furniture,Chairs,West,4638.872
+2017,4,Furniture,Furnishings,Central,338.572
+2017,4,Furniture,Furnishings,East,92.6
+2017,4,Furniture,Furnishings,South,264.704
+2017,4,Furniture,Furnishings,West,191.708
+2017,4,Furniture,Tables,East,205.176
+2017,4,Furniture,Tables,South,343.92
+2017,4,Furniture,Tables,West,1272.63
+2017,4,Office Supplies,Appliances,Central,48.792
+2017,4,Office Supplies,Appliances,South,203.92
+2017,4,Office Supplies,Appliances,West,222.176
+2017,4,Office Supplies,Art,Central,47.056
+2017,4,Office Supplies,Art,East,605.16
+2017,4,Office Supplies,Art,South,12.84
+2017,4,Office Supplies,Art,West,78.66
+2017,4,Office Supplies,Binders,Central,1138.92
+2017,4,Office Supplies,Binders,East,929.554
+2017,4,Office Supplies,Binders,South,189.588
+2017,4,Office Supplies,Binders,West,485.097
+2017,4,Office Supplies,Envelopes,East,17.132
+2017,4,Office Supplies,Envelopes,South,81.82
+2017,4,Office Supplies,Envelopes,West,78.09
+2017,4,Office Supplies,Fasteners,Central,37.09
+2017,4,Office Supplies,Fasteners,South,30
+2017,4,Office Supplies,Fasteners,West,31.56
+2017,4,Office Supplies,Labels,Central,15.712
+2017,4,Office Supplies,Labels,East,20.7
+2017,4,Office Supplies,Paper,Central,19.936
+2017,4,Office Supplies,Paper,East,730.22
+2017,4,Office Supplies,Paper,South,264.32
+2017,4,Office Supplies,Paper,West,276.844
+2017,4,Office Supplies,Storage,Central,2069.968
+2017,4,Office Supplies,Storage,East,708.76
+2017,4,Office Supplies,Storage,South,267.504
+2017,4,Office Supplies,Storage,West,838.106
+2017,4,Office Supplies,Supplies,East,913.474
+2017,4,Office Supplies,Supplies,West,214.176
+2017,4,Technology,Accessories,Central,690.624
+2017,4,Technology,Accessories,East,89.97
+2017,4,Technology,Accessories,South,735.872
+2017,4,Technology,Accessories,West,99.99
+2017,4,Technology,Copiers,West,1199.976
+2017,4,Technology,Machines,East,9099.93
+2017,4,Technology,Phones,Central,1160.426
+2017,4,Technology,Phones,East,1557.432
+2017,4,Technology,Phones,South,216.322
+2017,4,Technology,Phones,West,39.96
+2017,5,Furniture,Chairs,Central,4451.153
+2017,5,Furniture,Chairs,East,442.764
+2017,5,Furniture,Chairs,South,1219.288
+2017,5,Furniture,Chairs,West,1286.272
+2017,5,Furniture,Furnishings,Central,159.772
+2017,5,Furniture,Furnishings,East,762.014
+2017,5,Furniture,Furnishings,South,116.632
+2017,5,Furniture,Furnishings,West,1578.53
+2017,5,Furniture,Tables,East,174.286
+2017,5,Furniture,Tables,South,2646.12
+2017,5,Furniture,Tables,West,2055.744
+2017,5,Office Supplies,Appliances,Central,494.41
+2017,5,Office Supplies,Appliances,East,1064.508
+2017,5,Office Supplies,Appliances,West,358.75
+2017,5,Office Supplies,Art,Central,155.396
+2017,5,Office Supplies,Art,East,105.52
+2017,5,Office Supplies,Art,South,345.376
+2017,5,Office Supplies,Binders,Central,45.754
+2017,5,Office Supplies,Binders,East,215.414
+2017,5,Office Supplies,Binders,South,673.673
+2017,5,Office Supplies,Binders,West,140.759
+2017,5,Office Supplies,Envelopes,Central,7.072
+2017,5,Office Supplies,Envelopes,East,36.224
+2017,5,Office Supplies,Envelopes,South,26.55
+2017,5,Office Supplies,Envelopes,West,54.9
+2017,5,Office Supplies,Fasteners,Central,7.896
+2017,5,Office Supplies,Fasteners,East,7.216
+2017,5,Office Supplies,Fasteners,West,5.94
+2017,5,Office Supplies,Labels,Central,5.04
+2017,5,Office Supplies,Labels,East,65.02
+2017,5,Office Supplies,Labels,South,80.814
+2017,5,Office Supplies,Labels,West,27.72
+2017,5,Office Supplies,Paper,Central,1376.538
+2017,5,Office Supplies,Paper,East,240.324
+2017,5,Office Supplies,Paper,South,625.336
+2017,5,Office Supplies,Paper,West,416.332
+2017,5,Office Supplies,Storage,Central,2235.392
+2017,5,Office Supplies,Storage,East,2361.584
+2017,5,Office Supplies,Storage,South,1452.354
+2017,5,Office Supplies,Storage,West,110.26
+2017,5,Office Supplies,Supplies,East,120.07
+2017,5,Office Supplies,Supplies,South,69.5
+2017,5,Technology,Accessories,Central,314.128
+2017,5,Technology,Accessories,East,917.658
+2017,5,Technology,Accessories,South,2139.6
+2017,5,Technology,Accessories,West,597.368
+2017,5,Technology,Copiers,East,9239.964
+2017,5,Technology,Machines,East,4224.887
+2017,5,Technology,Machines,West,3326.776
+2017,5,Technology,Phones,Central,2491.414
+2017,5,Technology,Phones,East,2281.01
+2017,5,Technology,Phones,South,2564.99
+2017,5,Technology,Phones,West,734.896
+2017,6,Furniture,Bookcases,East,490.352
+2017,6,Furniture,Bookcases,South,1266.86
+2017,6,Furniture,Bookcases,West,838.831
+2017,6,Furniture,Chairs,Central,1004.276
+2017,6,Furniture,Chairs,East,863.428
+2017,6,Furniture,Chairs,West,767.056
+2017,6,Furniture,Furnishings,Central,545.342
+2017,6,Furniture,Furnishings,East,145.9
+2017,6,Furniture,Furnishings,West,297.222
+2017,6,Furniture,Tables,Central,870.165
+2017,6,Furniture,Tables,East,714.042
+2017,6,Furniture,Tables,West,4647.05
+2017,6,Office Supplies,Appliances,Central,73.096
+2017,6,Office Supplies,Appliances,East,1237.836
+2017,6,Office Supplies,Appliances,South,208.16
+2017,6,Office Supplies,Appliances,West,382.27
+2017,6,Office Supplies,Art,Central,23.976
+2017,6,Office Supplies,Art,East,37.38
+2017,6,Office Supplies,Art,South,35.97
+2017,6,Office Supplies,Art,West,20.84
+2017,6,Office Supplies,Binders,Central,19.996
+2017,6,Office Supplies,Binders,East,423.944
+2017,6,Office Supplies,Binders,South,132.486
+2017,6,Office Supplies,Binders,West,202.232
+2017,6,Office Supplies,Envelopes,East,115.02
+2017,6,Office Supplies,Fasteners,East,13.608
+2017,6,Office Supplies,Fasteners,West,17.9
+2017,6,Office Supplies,Labels,Central,18.9
+2017,6,Office Supplies,Labels,East,221.966
+2017,6,Office Supplies,Labels,West,116.42
+2017,6,Office Supplies,Paper,Central,1045.174
+2017,6,Office Supplies,Paper,East,568.906
+2017,6,Office Supplies,Paper,South,148.78
+2017,6,Office Supplies,Paper,West,984.27
+2017,6,Office Supplies,Storage,Central,238.576
+2017,6,Office Supplies,Storage,East,3038.334
+2017,6,Office Supplies,Storage,South,191.88
+2017,6,Office Supplies,Storage,West,255.62
+2017,6,Office Supplies,Supplies,East,835.17
+2017,6,Office Supplies,Supplies,West,293.1
+2017,6,Technology,Accessories,Central,166.604
+2017,6,Technology,Accessories,East,475.9
+2017,6,Technology,Accessories,South,548.624
+2017,6,Technology,Accessories,West,446.22
+2017,6,Technology,Machines,Central,1007.979
+2017,6,Technology,Machines,East,1349.85
+2017,6,Technology,Machines,South,787.175
+2017,6,Technology,Machines,West,4476.8
+2017,6,Technology,Phones,Central,1539.064
+2017,6,Technology,Phones,East,656.81
+2017,6,Technology,Phones,South,135.95
+2017,6,Technology,Phones,West,4781.176
+2017,7,Furniture,Bookcases,East,756.586
+2017,7,Furniture,Bookcases,South,504.9
+2017,7,Furniture,Bookcases,West,1279.165
+2017,7,Furniture,Chairs,Central,781.802
+2017,7,Furniture,Chairs,East,661.77
+2017,7,Furniture,Chairs,South,504.73
+2017,7,Furniture,Chairs,West,3016.24
+2017,7,Furniture,Furnishings,Central,670.2
+2017,7,Furniture,Furnishings,East,204.348
+2017,7,Furniture,Furnishings,South,237.33
+2017,7,Furniture,Furnishings,West,659.48
+2017,7,Furniture,Tables,South,2430.08
+2017,7,Furniture,Tables,West,863.128
+2017,7,Office Supplies,Appliances,Central,283.14
+2017,7,Office Supplies,Appliances,East,1206.5
+2017,7,Office Supplies,Appliances,South,23.696
+2017,7,Office Supplies,Appliances,West,867.26
+2017,7,Office Supplies,Art,Central,411.424
+2017,7,Office Supplies,Art,East,75.94
+2017,7,Office Supplies,Art,South,138.436
+2017,7,Office Supplies,Art,West,83.15
+2017,7,Office Supplies,Binders,Central,25.432
+2017,7,Office Supplies,Binders,East,1435.176
+2017,7,Office Supplies,Binders,South,265.71
+2017,7,Office Supplies,Binders,West,229.656
+2017,7,Office Supplies,Envelopes,Central,20.936
+2017,7,Office Supplies,Envelopes,South,10.2
+2017,7,Office Supplies,Envelopes,West,463.86
+2017,7,Office Supplies,Fasteners,Central,23.072
+2017,7,Office Supplies,Fasteners,East,43.68
+2017,7,Office Supplies,Fasteners,West,25.44
+2017,7,Office Supplies,Labels,Central,24.96
+2017,7,Office Supplies,Labels,East,40.61
+2017,7,Office Supplies,Labels,South,6.264
+2017,7,Office Supplies,Labels,West,116.06
+2017,7,Office Supplies,Paper,Central,533.93
+2017,7,Office Supplies,Paper,East,337.756
+2017,7,Office Supplies,Paper,South,400.504
+2017,7,Office Supplies,Paper,West,180.38
+2017,7,Office Supplies,Storage,Central,2885.848
+2017,7,Office Supplies,Storage,East,546.25
+2017,7,Office Supplies,Storage,South,800.57
+2017,7,Office Supplies,Storage,West,1157.184
+2017,7,Office Supplies,Supplies,Central,13.344
+2017,7,Office Supplies,Supplies,East,17.472
+2017,7,Office Supplies,Supplies,South,45.584
+2017,7,Office Supplies,Supplies,West,164.4
+2017,7,Technology,Accessories,Central,125.526
+2017,7,Technology,Accessories,East,30.84
+2017,7,Technology,Accessories,South,104.98
+2017,7,Technology,Accessories,West,818.37
+2017,7,Technology,Copiers,East,1439.976
+2017,7,Technology,Copiers,West,4299.91
+2017,7,Technology,Machines,East,341.991
+2017,7,Technology,Machines,South,265.475
+2017,7,Technology,Phones,Central,2153.67
+2017,7,Technology,Phones,East,1385.302
+2017,7,Technology,Phones,South,823.96
+2017,7,Technology,Phones,West,1057.2
+2017,8,Furniture,Bookcases,Central,398.3328
+2017,8,Furniture,Bookcases,East,163.88
+2017,8,Furniture,Chairs,Central,1024.716
+2017,8,Furniture,Chairs,East,932.508
+2017,8,Furniture,Chairs,South,225.296
+2017,8,Furniture,Chairs,West,2135.84
+2017,8,Furniture,Furnishings,Central,37.504
+2017,8,Furniture,Furnishings,East,19.312
+2017,8,Furniture,Furnishings,South,296.34
+2017,8,Furniture,Furnishings,West,457.398
+2017,8,Furniture,Tables,Central,447.84
+2017,8,Furniture,Tables,East,1510.975
+2017,8,Furniture,Tables,South,562.2925
+2017,8,Furniture,Tables,West,3697.824
+2017,8,Office Supplies,Appliances,Central,58.924
+2017,8,Office Supplies,Appliances,East,1509.672
+2017,8,Office Supplies,Appliances,South,586.876
+2017,8,Office Supplies,Appliances,West,699.308
+2017,8,Office Supplies,Art,Central,8.64
+2017,8,Office Supplies,Art,East,131.764
+2017,8,Office Supplies,Art,South,197.05
+2017,8,Office Supplies,Art,West,14.02
+2017,8,Office Supplies,Binders,Central,163.252
+2017,8,Office Supplies,Binders,East,687.48
+2017,8,Office Supplies,Binders,South,49.77
+2017,8,Office Supplies,Binders,West,167.578
+2017,8,Office Supplies,Envelopes,Central,81.54
+2017,8,Office Supplies,Envelopes,East,134.288
+2017,8,Office Supplies,Envelopes,West,146.76
+2017,8,Office Supplies,Fasteners,Central,11.168
+2017,8,Office Supplies,Fasteners,East,22.264
+2017,8,Office Supplies,Fasteners,South,23.34
+2017,8,Office Supplies,Fasteners,West,10.23
+2017,8,Office Supplies,Labels,Central,62.79
+2017,8,Office Supplies,Labels,East,100.24
+2017,8,Office Supplies,Labels,South,135.982
+2017,8,Office Supplies,Labels,West,3.15
+2017,8,Office Supplies,Paper,Central,371.136
+2017,8,Office Supplies,Paper,East,275.39
+2017,8,Office Supplies,Paper,South,87.648
+2017,8,Office Supplies,Paper,West,376.92
+2017,8,Office Supplies,Storage,Central,780.394
+2017,8,Office Supplies,Storage,East,1645.244
+2017,8,Office Supplies,Storage,West,17.94
+2017,8,Office Supplies,Supplies,Central,292.064
+2017,8,Office Supplies,Supplies,East,27.93
+2017,8,Office Supplies,Supplies,South,63.108
+2017,8,Office Supplies,Supplies,West,15.88
+2017,8,Technology,Accessories,Central,3019.504
+2017,8,Technology,Accessories,East,577.894
+2017,8,Technology,Accessories,South,71.98
+2017,8,Technology,Accessories,West,434.94
+2017,8,Technology,Machines,West,943.152
+2017,8,Technology,Phones,Central,224.75
+2017,8,Technology,Phones,East,952.942
+2017,8,Technology,Phones,South,750.328
+2017,8,Technology,Phones,West,2696.912
+2017,9,Furniture,Bookcases,Central,3551.6744
+2017,9,Furniture,Bookcases,East,1765.152
+2017,9,Furniture,Bookcases,West,1340.1695
+2017,9,Furniture,Chairs,Central,2696.597
+2017,9,Furniture,Chairs,East,2802.609
+2017,9,Furniture,Chairs,South,1999.242
+2017,9,Furniture,Chairs,West,3314.856
+2017,9,Furniture,Furnishings,Central,1782.782
+2017,9,Furniture,Furnishings,East,1460.556
+2017,9,Furniture,Furnishings,South,72.968
+2017,9,Furniture,Furnishings,West,321.25
+2017,9,Furniture,Tables,Central,902.4
+2017,9,Furniture,Tables,South,2508.896
+2017,9,Furniture,Tables,West,2236.323
+2017,9,Office Supplies,Appliances,Central,988.442
+2017,9,Office Supplies,Appliances,East,886.986
+2017,9,Office Supplies,Appliances,South,396.624
+2017,9,Office Supplies,Appliances,West,254.36
+2017,9,Office Supplies,Art,Central,333.876
+2017,9,Office Supplies,Art,East,98.808
+2017,9,Office Supplies,Art,South,204.626
+2017,9,Office Supplies,Art,West,166.198
+2017,9,Office Supplies,Binders,Central,666.768
+2017,9,Office Supplies,Binders,East,7490.219
+2017,9,Office Supplies,Binders,South,401.059
+2017,9,Office Supplies,Binders,West,1021.814
+2017,9,Office Supplies,Envelopes,Central,25.488
+2017,9,Office Supplies,Envelopes,South,130.514
+2017,9,Office Supplies,Envelopes,West,409.58
+2017,9,Office Supplies,Fasteners,Central,46.058
+2017,9,Office Supplies,Fasteners,East,16.688
+2017,9,Office Supplies,Fasteners,South,11.34
+2017,9,Office Supplies,Fasteners,West,14.83
+2017,9,Office Supplies,Labels,Central,87.626
+2017,9,Office Supplies,Labels,East,105.696
+2017,9,Office Supplies,Labels,South,44.62
+2017,9,Office Supplies,Labels,West,63.764
+2017,9,Office Supplies,Paper,Central,434.072
+2017,9,Office Supplies,Paper,East,424.914
+2017,9,Office Supplies,Paper,South,383.608
+2017,9,Office Supplies,Paper,West,1187.502
+2017,9,Office Supplies,Storage,Central,1576.116
+2017,9,Office Supplies,Storage,East,2552.25
+2017,9,Office Supplies,Storage,South,1216.15
+2017,9,Office Supplies,Storage,West,1269.346
+2017,9,Office Supplies,Supplies,Central,16.9
+2017,9,Office Supplies,Supplies,East,61.6
+2017,9,Office Supplies,Supplies,South,5.04
+2017,9,Office Supplies,Supplies,West,19.92
+2017,9,Technology,Accessories,Central,997.044
+2017,9,Technology,Accessories,East,580.03
+2017,9,Technology,Accessories,South,1960.444
+2017,9,Technology,Accessories,West,3563.37
+2017,9,Technology,Copiers,South,1599.92
+2017,9,Technology,Copiers,West,999.98
+2017,9,Technology,Machines,Central,1362.9
+2017,9,Technology,Machines,South,396
+2017,9,Technology,Phones,Central,1801.354
+2017,9,Technology,Phones,East,1953.016
+2017,9,Technology,Phones,South,692.4
+2017,9,Technology,Phones,West,3518.056
+2017,10,Furniture,Bookcases,East,1164.9
+2017,10,Furniture,Bookcases,West,211.548
+2017,10,Furniture,Chairs,Central,425.656
+2017,10,Furniture,Chairs,East,1519.771
+2017,10,Furniture,Chairs,South,393.572
+2017,10,Furniture,Chairs,West,3571.88
+2017,10,Furniture,Furnishings,Central,386.118
+2017,10,Furniture,Furnishings,East,1289.692
+2017,10,Furniture,Furnishings,South,389.556
+2017,10,Furniture,Furnishings,West,359.548
+2017,10,Furniture,Tables,East,1373.318
+2017,10,Furniture,Tables,West,727.45
+2017,10,Office Supplies,Appliances,Central,2796.18
+2017,10,Office Supplies,Appliances,East,73.11
+2017,10,Office Supplies,Appliances,South,43.26
+2017,10,Office Supplies,Appliances,West,43.92
+2017,10,Office Supplies,Art,Central,106.966
+2017,10,Office Supplies,Art,East,169.222
+2017,10,Office Supplies,Art,South,30.976
+2017,10,Office Supplies,Art,West,146.878
+2017,10,Office Supplies,Binders,Central,927.086
+2017,10,Office Supplies,Binders,East,430.26
+2017,10,Office Supplies,Binders,South,335.674
+2017,10,Office Supplies,Binders,West,4956.712
+2017,10,Office Supplies,Envelopes,Central,75.4
+2017,10,Office Supplies,Envelopes,South,101.548
+2017,10,Office Supplies,Fasteners,Central,25.248
+2017,10,Office Supplies,Fasteners,East,40.67
+2017,10,Office Supplies,Fasteners,West,118.05
+2017,10,Office Supplies,Labels,Central,109.764
+2017,10,Office Supplies,Labels,East,29.828
+2017,10,Office Supplies,Labels,West,6.16
+2017,10,Office Supplies,Paper,Central,170.984
+2017,10,Office Supplies,Paper,East,637.746
+2017,10,Office Supplies,Paper,South,164.24
+2017,10,Office Supplies,Paper,West,528.22
+2017,10,Office Supplies,Storage,Central,386.28
+2017,10,Office Supplies,Storage,East,1480.46
+2017,10,Office Supplies,Storage,South,499.392
+2017,10,Office Supplies,Storage,West,1673.84
+2017,10,Office Supplies,Supplies,Central,21.96
+2017,10,Office Supplies,Supplies,East,7.36
+2017,10,Office Supplies,Supplies,South,33.376
+2017,10,Office Supplies,Supplies,West,65.88
+2017,10,Technology,Accessories,Central,2027.318
+2017,10,Technology,Accessories,East,98.16
+2017,10,Technology,Accessories,South,22.704
+2017,10,Technology,Accessories,West,1354.93
+2017,10,Technology,Copiers,Central,17499.95
+2017,10,Technology,Copiers,East,5399.91
+2017,10,Technology,Machines,West,1541.31
+2017,10,Technology,Phones,Central,843.05
+2017,10,Technology,Phones,East,1351.058
+2017,10,Technology,Phones,South,1076.616
+2017,10,Technology,Phones,West,318.368
+2017,11,Furniture,Bookcases,Central,1298.6248
+2017,11,Furniture,Bookcases,East,200.538
+2017,11,Furniture,Bookcases,South,891.448
+2017,11,Furniture,Bookcases,West,3406.664
+2017,11,Furniture,Chairs,Central,1313.46
+2017,11,Furniture,Chairs,East,5440.469
+2017,11,Furniture,Chairs,South,1122.594
+2017,11,Furniture,Chairs,West,5296.56
+2017,11,Furniture,Furnishings,Central,463.932
+2017,11,Furniture,Furnishings,East,658.752
+2017,11,Furniture,Furnishings,South,1140.924
+2017,11,Furniture,Furnishings,West,1771.17
+2017,11,Furniture,Tables,Central,5110.678
+2017,11,Furniture,Tables,East,313.176
+2017,11,Furniture,Tables,South,2680.287
+2017,11,Furniture,Tables,West,674.352
+2017,11,Office Supplies,Appliances,Central,259.932
+2017,11,Office Supplies,Appliances,East,557.684
+2017,11,Office Supplies,Appliances,South,713.928
+2017,11,Office Supplies,Appliances,West,1446.52
+2017,11,Office Supplies,Art,Central,212.212
+2017,11,Office Supplies,Art,East,295.44
+2017,11,Office Supplies,Art,South,77.07
+2017,11,Office Supplies,Art,West,307.35
+2017,11,Office Supplies,Binders,Central,499.39
+2017,11,Office Supplies,Binders,East,1401.362
+2017,11,Office Supplies,Binders,South,154.756
+2017,11,Office Supplies,Binders,West,2793.94
+2017,11,Office Supplies,Envelopes,Central,328.488
+2017,11,Office Supplies,Envelopes,East,40.752
+2017,11,Office Supplies,Envelopes,South,251.79
+2017,11,Office Supplies,Envelopes,West,186.53
+2017,11,Office Supplies,Fasteners,Central,62.712
+2017,11,Office Supplies,Fasteners,East,83.696
+2017,11,Office Supplies,Fasteners,South,30.74
+2017,11,Office Supplies,Fasteners,West,15.26
+2017,11,Office Supplies,Labels,Central,129.146
+2017,11,Office Supplies,Labels,East,42.652
+2017,11,Office Supplies,Labels,West,738.894
+2017,11,Office Supplies,Paper,Central,598.47
+2017,11,Office Supplies,Paper,East,498.816
+2017,11,Office Supplies,Paper,South,216.748
+2017,11,Office Supplies,Paper,West,783.872
+2017,11,Office Supplies,Storage,Central,2302.716
+2017,11,Office Supplies,Storage,East,1176.3
+2017,11,Office Supplies,Storage,South,2547.648
+2017,11,Office Supplies,Storage,West,1030.968
+2017,11,Office Supplies,Supplies,East,14.72
+2017,11,Office Supplies,Supplies,South,237.512
+2017,11,Office Supplies,Supplies,West,103.794
+2017,11,Technology,Accessories,Central,1429.926
+2017,11,Technology,Accessories,East,1071.156
+2017,11,Technology,Accessories,South,2011.61
+2017,11,Technology,Accessories,West,3568.684
+2017,11,Technology,Copiers,East,1199.976
+2017,11,Technology,Machines,East,4850.25
+2017,11,Technology,Machines,South,3040
+2017,11,Technology,Machines,West,866.391
+2017,11,Technology,Phones,Central,2900.63
+2017,11,Technology,Phones,East,4790.88
+2017,11,Technology,Phones,South,479.5
+2017,11,Technology,Phones,West,932.056
+2017,12,Furniture,Bookcases,Central,1329.096
+2017,12,Furniture,Bookcases,East,81.94
+2017,12,Furniture,Bookcases,West,205.666
+2017,12,Furniture,Chairs,Central,6584.284
+2017,12,Furniture,Chairs,East,5738.924
+2017,12,Furniture,Chairs,West,2627.424
+2017,12,Furniture,Furnishings,Central,333.438
+2017,12,Furniture,Furnishings,East,1818.88
+2017,12,Furniture,Furnishings,South,1547.11
+2017,12,Furniture,Furnishings,West,1775.344
+2017,12,Furniture,Tables,Central,2234.9
+2017,12,Furniture,Tables,East,1407.807
+2017,12,Furniture,Tables,South,1136.834
+2017,12,Furniture,Tables,West,9783.318
+2017,12,Office Supplies,Appliances,Central,220.233
+2017,12,Office Supplies,Appliances,East,1783.928
+2017,12,Office Supplies,Appliances,South,2334.022
+2017,12,Office Supplies,Appliances,West,413.868
+2017,12,Office Supplies,Art,Central,46.224
+2017,12,Office Supplies,Art,East,53.96
+2017,12,Office Supplies,Art,South,78.882
+2017,12,Office Supplies,Art,West,187.326
+2017,12,Office Supplies,Binders,Central,10193.642
+2017,12,Office Supplies,Binders,East,4399.901
+2017,12,Office Supplies,Binders,South,341.202
+2017,12,Office Supplies,Binders,West,1839.654
+2017,12,Office Supplies,Envelopes,East,361.92
+2017,12,Office Supplies,Envelopes,West,188.322
+2017,12,Office Supplies,Fasteners,Central,24.85
+2017,12,Office Supplies,Fasteners,East,57.604
+2017,12,Office Supplies,Labels,Central,57.312
+2017,12,Office Supplies,Labels,East,143.774
+2017,12,Office Supplies,Labels,South,2.61
+2017,12,Office Supplies,Labels,West,36.096
+2017,12,Office Supplies,Paper,Central,369.964
+2017,12,Office Supplies,Paper,East,392.772
+2017,12,Office Supplies,Paper,South,333.336
+2017,12,Office Supplies,Paper,West,1205.918
+2017,12,Office Supplies,Storage,Central,323.23
+2017,12,Office Supplies,Storage,East,4387.172
+2017,12,Office Supplies,Storage,South,1210.092
+2017,12,Office Supplies,Storage,West,4670.124
+2017,12,Office Supplies,Supplies,Central,20.568
+2017,12,Office Supplies,Supplies,East,27.232
+2017,12,Office Supplies,Supplies,South,1002.18
+2017,12,Office Supplies,Supplies,West,625.02
+2017,12,Technology,Accessories,Central,308.5
+2017,12,Technology,Accessories,East,592.072
+2017,12,Technology,Accessories,South,1056.582
+2017,12,Technology,Accessories,West,3795.316
+2017,12,Technology,Copiers,East,2479.944
+2017,12,Technology,Machines,West,281.53
+2017,12,Technology,Phones,Central,3289.08
+2017,12,Technology,Phones,East,3675.75
+2017,12,Technology,Phones,South,1854.172
+2017,12,Technology,Phones,West,4468.272
+2018,1,Furniture,Bookcases,Central,212.94
+2018,1,Furniture,Bookcases,West,84.98
+2018,1,Furniture,Chairs,Central,613.414
+2018,1,Furniture,Chairs,East,1095.117
+2018,1,Furniture,Chairs,South,419.136
+2018,1,Furniture,Chairs,West,120.784
+2018,1,Furniture,Furnishings,Central,176
+2018,1,Furniture,Furnishings,East,118.544
+2018,1,Furniture,Furnishings,South,62.72
+2018,1,Furniture,Furnishings,West,540.09
+2018,1,Furniture,Tables,Central,1193.785
+2018,1,Furniture,Tables,West,1292.652
+2018,1,Office Supplies,Appliances,Central,20.656
+2018,1,Office Supplies,Appliances,East,2501.484
+2018,1,Office Supplies,Appliances,West,25.86
+2018,1,Office Supplies,Art,Central,311.936
+2018,1,Office Supplies,Art,East,22.304
+2018,1,Office Supplies,Art,South,15.47
+2018,1,Office Supplies,Art,West,84.62
+2018,1,Office Supplies,Binders,Central,6440.206
+2018,1,Office Supplies,Binders,East,274.491
+2018,1,Office Supplies,Binders,South,132.484
+2018,1,Office Supplies,Binders,West,2589.642
+2018,1,Office Supplies,Envelopes,Central,268.576
+2018,1,Office Supplies,Envelopes,East,2.04
+2018,1,Office Supplies,Envelopes,South,40.08
+2018,1,Office Supplies,Envelopes,West,9.78
+2018,1,Office Supplies,Fasteners,Central,15.12
+2018,1,Office Supplies,Fasteners,South,5.67
+2018,1,Office Supplies,Fasteners,West,19.73
+2018,1,Office Supplies,Labels,Central,17.52
+2018,1,Office Supplies,Labels,East,5.22
+2018,1,Office Supplies,Paper,Central,368.37
+2018,1,Office Supplies,Paper,East,166.676
+2018,1,Office Supplies,Paper,South,36.288
+2018,1,Office Supplies,Paper,West,238.14
+2018,1,Office Supplies,Storage,Central,844.864
+2018,1,Office Supplies,Storage,South,348.208
+2018,1,Office Supplies,Storage,West,1933.134
+2018,1,Office Supplies,Supplies,Central,4195.73
+2018,1,Office Supplies,Supplies,West,118.68
+2018,1,Technology,Accessories,Central,730.526
+2018,1,Technology,Accessories,East,521.886
+2018,1,Technology,Accessories,West,701.578
+2018,1,Technology,Copiers,West,2999.95
+2018,1,Technology,Machines,Central,3410.955
+2018,1,Technology,Machines,South,695.7
+2018,1,Technology,Phones,Central,2375.158
+2018,1,Technology,Phones,East,675.522
+2018,1,Technology,Phones,South,3059.834
+2018,1,Technology,Phones,West,1322.224
+2018,2,Furniture,Bookcases,Central,89.0664
+2018,2,Furniture,Bookcases,East,240.784
+2018,2,Furniture,Bookcases,South,591.89
+2018,2,Furniture,Bookcases,West,203.983
+2018,2,Furniture,Chairs,Central,600.558
+2018,2,Furniture,Chairs,East,899.43
+2018,2,Furniture,Chairs,South,196.784
+2018,2,Furniture,Chairs,West,1855.36
+2018,2,Furniture,Furnishings,Central,33.876
+2018,2,Furniture,Furnishings,East,177.712
+2018,2,Furniture,Furnishings,West,561.094
+2018,2,Furniture,Tables,Central,480.96
+2018,2,Furniture,Tables,East,455.97
+2018,2,Furniture,Tables,West,386.91
+2018,2,Office Supplies,Appliances,Central,116.742
+2018,2,Office Supplies,Appliances,East,32.67
+2018,2,Office Supplies,Appliances,South,1245.86
+2018,2,Office Supplies,Appliances,West,2126.21
+2018,2,Office Supplies,Art,Central,217.152
+2018,2,Office Supplies,Art,East,10.71
+2018,2,Office Supplies,Art,West,19.47
+2018,2,Office Supplies,Binders,Central,498.564
+2018,2,Office Supplies,Binders,East,71.98
+2018,2,Office Supplies,Binders,South,3.882
+2018,2,Office Supplies,Binders,West,52.296
+2018,2,Office Supplies,Envelopes,West,10.64
+2018,2,Office Supplies,Fasteners,Central,18.368
+2018,2,Office Supplies,Fasteners,East,21.456
+2018,2,Office Supplies,Fasteners,West,29.052
+2018,2,Office Supplies,Labels,East,20.7
+2018,2,Office Supplies,Labels,West,9.82
+2018,2,Office Supplies,Paper,Central,490.168
+2018,2,Office Supplies,Paper,East,300.764
+2018,2,Office Supplies,Paper,South,115.296
+2018,2,Office Supplies,Paper,West,314.38
+2018,2,Office Supplies,Storage,Central,50.352
+2018,2,Office Supplies,Storage,East,1031.512
+2018,2,Office Supplies,Storage,West,545.108
+2018,2,Office Supplies,Supplies,East,25.02
+2018,2,Technology,Accessories,Central,175.888
+2018,2,Technology,Accessories,East,1319.8
+2018,2,Technology,Accessories,West,941.482
+2018,2,Technology,Machines,West,239.984
+2018,2,Technology,Phones,Central,563.128
+2018,2,Technology,Phones,East,360.014
+2018,2,Technology,Phones,South,29.16
+2018,2,Technology,Phones,West,2138.992
+2018,3,Furniture,Bookcases,Central,1228.6648
+2018,3,Furniture,Bookcases,East,699.528
+2018,3,Furniture,Chairs,Central,4874.952
+2018,3,Furniture,Chairs,East,479.61
+2018,3,Furniture,Chairs,West,170.352
+2018,3,Furniture,Furnishings,Central,249.774
+2018,3,Furniture,Furnishings,East,245.31
+2018,3,Furniture,Furnishings,South,61
+2018,3,Furniture,Furnishings,West,407.15
+2018,3,Furniture,Tables,Central,933.408
+2018,3,Furniture,Tables,East,154.764
+2018,3,Furniture,Tables,South,292.1
+2018,3,Furniture,Tables,West,1096.832
+2018,3,Office Supplies,Appliances,Central,123.476
+2018,3,Office Supplies,Appliances,East,465.16
+2018,3,Office Supplies,Appliances,South,1096.048
+2018,3,Office Supplies,Appliances,West,788.93
+2018,3,Office Supplies,Art,Central,136.536
+2018,3,Office Supplies,Art,East,134.918
+2018,3,Office Supplies,Art,West,161.69
+2018,3,Office Supplies,Binders,Central,1265.586
+2018,3,Office Supplies,Binders,East,281.974
+2018,3,Office Supplies,Binders,South,473.024
+2018,3,Office Supplies,Binders,West,764.904
+2018,3,Office Supplies,Envelopes,Central,325.86
+2018,3,Office Supplies,Envelopes,East,113.826
+2018,3,Office Supplies,Envelopes,South,42.68
+2018,3,Office Supplies,Envelopes,West,34.65
+2018,3,Office Supplies,Fasteners,Central,7.9
+2018,3,Office Supplies,Fasteners,South,3.76
+2018,3,Office Supplies,Fasteners,West,13.02
+2018,3,Office Supplies,Labels,Central,32.452
+2018,3,Office Supplies,Labels,East,146.56
+2018,3,Office Supplies,Labels,South,33.568
+2018,3,Office Supplies,Labels,West,11.52
+2018,3,Office Supplies,Paper,Central,837.42
+2018,3,Office Supplies,Paper,East,506.14
+2018,3,Office Supplies,Paper,South,17.64
+2018,3,Office Supplies,Paper,West,1189.9
+2018,3,Office Supplies,Storage,Central,500.008
+2018,3,Office Supplies,Storage,East,251.474
+2018,3,Office Supplies,Storage,South,392.7
+2018,3,Office Supplies,Storage,West,2671.27
+2018,3,Office Supplies,Supplies,Central,6.976
+2018,3,Office Supplies,Supplies,East,347.58
+2018,3,Office Supplies,Supplies,West,1362.196
+2018,3,Technology,Accessories,Central,311.748
+2018,3,Technology,Accessories,East,665.604
+2018,3,Technology,Accessories,South,353.22
+2018,3,Technology,Accessories,West,2621.7
+2018,3,Technology,Copiers,Central,3359.944
+2018,3,Technology,Copiers,South,2999.95
+2018,3,Technology,Copiers,West,14959.928
+2018,3,Technology,Machines,Central,209.986
+2018,3,Technology,Machines,West,532.72
+2018,3,Technology,Phones,Central,1099.888
+2018,3,Technology,Phones,East,3198.568
+2018,3,Technology,Phones,South,878.03
+2018,3,Technology,Phones,West,2237.336
+2018,4,Furniture,Bookcases,Central,220.2656
+2018,4,Furniture,Bookcases,East,242.352
+2018,4,Furniture,Bookcases,South,585.408
+2018,4,Furniture,Bookcases,West,930.478
+2018,4,Furniture,Chairs,Central,317.058
+2018,4,Furniture,Chairs,East,908.82
+2018,4,Furniture,Chairs,South,218.352
+2018,4,Furniture,Chairs,West,655.056
+2018,4,Furniture,Furnishings,Central,641.808
+2018,4,Furniture,Furnishings,East,545.634
+2018,4,Furniture,Furnishings,South,776.958
+2018,4,Furniture,Furnishings,West,709.144
+2018,4,Furniture,Tables,East,1048.35
+2018,4,Furniture,Tables,South,1266.2745
+2018,4,Office Supplies,Appliances,Central,97.264
+2018,4,Office Supplies,Appliances,East,458.274
+2018,4,Office Supplies,Appliances,South,48.888
+2018,4,Office Supplies,Appliances,West,40.74
+2018,4,Office Supplies,Art,Central,39.336
+2018,4,Office Supplies,Art,East,165.426
+2018,4,Office Supplies,Art,South,169.386
+2018,4,Office Supplies,Art,West,244.146
+2018,4,Office Supplies,Binders,Central,770.156
+2018,4,Office Supplies,Binders,East,126.444
+2018,4,Office Supplies,Binders,South,2746.659
+2018,4,Office Supplies,Binders,West,1263.556
+2018,4,Office Supplies,Envelopes,Central,28.4
+2018,4,Office Supplies,Envelopes,East,79.94
+2018,4,Office Supplies,Envelopes,West,49.248
+2018,4,Office Supplies,Fasteners,East,15.08
+2018,4,Office Supplies,Fasteners,West,12.71
+2018,4,Office Supplies,Labels,Central,33.12
+2018,4,Office Supplies,Labels,East,29.13
+2018,4,Office Supplies,Labels,South,55.884
+2018,4,Office Supplies,Labels,West,75.48
+2018,4,Office Supplies,Paper,Central,158.16
+2018,4,Office Supplies,Paper,East,390.228
+2018,4,Office Supplies,Paper,South,267.192
+2018,4,Office Supplies,Paper,West,776.956
+2018,4,Office Supplies,Storage,Central,394.664
+2018,4,Office Supplies,Storage,East,3788.712
+2018,4,Office Supplies,Storage,South,788.628
+2018,4,Office Supplies,Storage,West,205.92
+2018,4,Office Supplies,Supplies,East,417.98
+2018,4,Office Supplies,Supplies,South,477.24
+2018,4,Technology,Accessories,Central,299.052
+2018,4,Technology,Accessories,East,197.09
+2018,4,Technology,Accessories,South,1051.74
+2018,4,Technology,Accessories,West,594.35
+2018,4,Technology,Machines,West,7349.969
+2018,4,Technology,Phones,Central,383.84
+2018,4,Technology,Phones,East,837.82
+2018,4,Technology,Phones,South,995.144
+2018,4,Technology,Phones,West,552
+2018,5,Furniture,Bookcases,Central,828.1312
+2018,5,Furniture,Bookcases,East,115.96
+2018,5,Furniture,Bookcases,South,2488.072
+2018,5,Furniture,Bookcases,West,299.97
+2018,5,Furniture,Chairs,Central,3150.375
+2018,5,Furniture,Chairs,East,896.44
+2018,5,Furniture,Chairs,South,3627.232
+2018,5,Furniture,Chairs,West,1463.264
+2018,5,Furniture,Furnishings,Central,581.46
+2018,5,Furniture,Furnishings,East,1033.578
+2018,5,Furniture,Furnishings,South,8.01
+2018,5,Furniture,Furnishings,West,113.812
+2018,5,Furniture,Tables,East,373.47
+2018,5,Furniture,Tables,South,933.262
+2018,5,Furniture,Tables,West,1044.522
+2018,5,Office Supplies,Appliances,Central,1277.784
+2018,5,Office Supplies,Appliances,East,406.47
+2018,5,Office Supplies,Appliances,South,246.448
+2018,5,Office Supplies,Appliances,West,403.85
+2018,5,Office Supplies,Art,Central,237.216
+2018,5,Office Supplies,Art,East,127.822
+2018,5,Office Supplies,Art,South,54.66
+2018,5,Office Supplies,Art,West,220.3
+2018,5,Office Supplies,Binders,Central,1103.364
+2018,5,Office Supplies,Binders,East,1129.157
+2018,5,Office Supplies,Binders,South,347.271
+2018,5,Office Supplies,Binders,West,348.832
+2018,5,Office Supplies,Envelopes,Central,180.96
+2018,5,Office Supplies,Envelopes,South,113.922
+2018,5,Office Supplies,Envelopes,West,44.4
+2018,5,Office Supplies,Fasteners,Central,32.784
+2018,5,Office Supplies,Fasteners,East,11.29
+2018,5,Office Supplies,Labels,Central,13.216
+2018,5,Office Supplies,Labels,East,150.304
+2018,5,Office Supplies,Labels,South,126.728
+2018,5,Office Supplies,Labels,West,96.07
+2018,5,Office Supplies,Paper,Central,316.696
+2018,5,Office Supplies,Paper,East,132.936
+2018,5,Office Supplies,Paper,South,577.888
+2018,5,Office Supplies,Paper,West,737.26
+2018,5,Office Supplies,Storage,Central,2371.42
+2018,5,Office Supplies,Storage,East,243.604
+2018,5,Office Supplies,Storage,South,588.35
+2018,5,Office Supplies,Storage,West,1481.35
+2018,5,Office Supplies,Supplies,Central,22.344
+2018,5,Office Supplies,Supplies,East,17
+2018,5,Office Supplies,Supplies,South,29.088
+2018,5,Office Supplies,Supplies,West,303.02
+2018,5,Technology,Accessories,Central,408.744
+2018,5,Technology,Accessories,East,633.388
+2018,5,Technology,Accessories,South,166.972
+2018,5,Technology,Accessories,West,2349.728
+2018,5,Technology,Copiers,West,3359.952
+2018,5,Technology,Machines,West,343.2
+2018,5,Technology,Phones,Central,872.392
+2018,5,Technology,Phones,East,847.95
+2018,5,Technology,Phones,South,1635.838
+2018,5,Technology,Phones,West,2756.456
+2018,6,Furniture,Bookcases,Central,409.9992
+2018,6,Furniture,Bookcases,East,1039.604
+2018,6,Furniture,Bookcases,South,319.296
+2018,6,Furniture,Bookcases,West,3540.1735
+2018,6,Furniture,Chairs,Central,1527.32
+2018,6,Furniture,Chairs,East,1982.766
+2018,6,Furniture,Chairs,South,1273.864
+2018,6,Furniture,Chairs,West,1784.888
+2018,6,Furniture,Furnishings,Central,603.842
+2018,6,Furniture,Furnishings,East,380.784
+2018,6,Furniture,Furnishings,South,134.928
+2018,6,Furniture,Furnishings,West,286.5
+2018,6,Furniture,Tables,Central,873.724
+2018,6,Furniture,Tables,East,1429.398
+2018,6,Furniture,Tables,South,573.9
+2018,6,Furniture,Tables,West,871.4
+2018,6,Office Supplies,Appliances,Central,388.664
+2018,6,Office Supplies,Appliances,East,17.48
+2018,6,Office Supplies,Appliances,South,286.94
+2018,6,Office Supplies,Appliances,West,61.44
+2018,6,Office Supplies,Art,Central,44.12
+2018,6,Office Supplies,Art,East,101.708
+2018,6,Office Supplies,Art,South,199.636
+2018,6,Office Supplies,Art,West,673.636
+2018,6,Office Supplies,Binders,Central,294.504
+2018,6,Office Supplies,Binders,East,352.349
+2018,6,Office Supplies,Binders,South,217.946
+2018,6,Office Supplies,Binders,West,1430.364
+2018,6,Office Supplies,Envelopes,South,37.608
+2018,6,Office Supplies,Envelopes,West,43.92
+2018,6,Office Supplies,Fasteners,East,14.13
+2018,6,Office Supplies,Fasteners,West,14.184
+2018,6,Office Supplies,Labels,Central,44.4
+2018,6,Office Supplies,Labels,East,9.82
+2018,6,Office Supplies,Labels,South,13.872
+2018,6,Office Supplies,Labels,West,112.2
+2018,6,Office Supplies,Paper,Central,422.854
+2018,6,Office Supplies,Paper,East,799.204
+2018,6,Office Supplies,Paper,South,246.992
+2018,6,Office Supplies,Paper,West,711.064
+2018,6,Office Supplies,Storage,Central,1123.63
+2018,6,Office Supplies,Storage,East,2681.922
+2018,6,Office Supplies,Storage,South,1494.76
+2018,6,Office Supplies,Storage,West,2271.04
+2018,6,Office Supplies,Supplies,Central,34.944
+2018,6,Office Supplies,Supplies,East,59.09
+2018,6,Office Supplies,Supplies,West,16.68
+2018,6,Technology,Accessories,Central,132.52
+2018,6,Technology,Accessories,East,1260.58
+2018,6,Technology,Accessories,South,316.392
+2018,6,Technology,Accessories,West,3015.482
+2018,6,Technology,Machines,East,3483.16
+2018,6,Technology,Machines,West,385.8
+2018,6,Technology,Phones,Central,2593.92
+2018,6,Technology,Phones,East,1305.432
+2018,6,Technology,Phones,South,3817.786
+2018,6,Technology,Phones,West,626.168
+2018,7,Furniture,Bookcases,East,87.21
+2018,7,Furniture,Bookcases,South,302.94
+2018,7,Furniture,Bookcases,West,1310.125
+2018,7,Furniture,Chairs,Central,1011.954
+2018,7,Furniture,Chairs,East,1098.026
+2018,7,Furniture,Chairs,South,239.24
+2018,7,Furniture,Chairs,West,1183.328
+2018,7,Furniture,Furnishings,Central,867.27
+2018,7,Furniture,Furnishings,East,972.114
+2018,7,Furniture,Furnishings,South,150.566
+2018,7,Furniture,Furnishings,West,1391.81
+2018,7,Furniture,Tables,Central,422.52
+2018,7,Furniture,Tables,East,664.179
+2018,7,Furniture,Tables,South,872.94
+2018,7,Furniture,Tables,West,801.6
+2018,7,Office Supplies,Appliances,Central,768.284
+2018,7,Office Supplies,Appliances,East,17.48
+2018,7,Office Supplies,Appliances,South,256.698
+2018,7,Office Supplies,Appliances,West,168.1
+2018,7,Office Supplies,Art,Central,175.288
+2018,7,Office Supplies,Art,East,423.22
+2018,7,Office Supplies,Art,South,135.54
+2018,7,Office Supplies,Art,West,132.79
+2018,7,Office Supplies,Binders,Central,1180.798
+2018,7,Office Supplies,Binders,East,1045.682
+2018,7,Office Supplies,Binders,South,14.94
+2018,7,Office Supplies,Binders,West,228.056
+2018,7,Office Supplies,Envelopes,West,57.9
+2018,7,Office Supplies,Fasteners,Central,2.896
+2018,7,Office Supplies,Fasteners,West,10.9
+2018,7,Office Supplies,Labels,Central,34.85
+2018,7,Office Supplies,Labels,East,52.534
+2018,7,Office Supplies,Labels,West,896.58
+2018,7,Office Supplies,Paper,Central,587.304
+2018,7,Office Supplies,Paper,East,648.24
+2018,7,Office Supplies,Paper,South,12.96
+2018,7,Office Supplies,Paper,West,215.076
+2018,7,Office Supplies,Storage,Central,1401.396
+2018,7,Office Supplies,Storage,East,992.768
+2018,7,Office Supplies,Storage,West,500.42
+2018,7,Office Supplies,Supplies,East,46.936
+2018,7,Office Supplies,Supplies,South,231.72
+2018,7,Technology,Accessories,Central,949.67
+2018,7,Technology,Accessories,East,1371.996
+2018,7,Technology,Accessories,South,65.424
+2018,7,Technology,Accessories,West,5201.67
+2018,7,Technology,Copiers,East,599.97
+2018,7,Technology,Copiers,West,2879.944
+2018,7,Technology,Machines,Central,597.132
+2018,7,Technology,Machines,West,2395.2
+2018,7,Technology,Phones,Central,871.482
+2018,7,Technology,Phones,East,4301.468
+2018,7,Technology,Phones,South,581.93
+2018,7,Technology,Phones,West,3394.04
+2018,8,Furniture,Bookcases,Central,183.372
+2018,8,Furniture,Bookcases,East,130.98
+2018,8,Furniture,Bookcases,South,145.74
+2018,8,Furniture,Chairs,Central,74.592
+2018,8,Furniture,Chairs,East,6658.638
+2018,8,Furniture,Chairs,South,1290.048
+2018,8,Furniture,Chairs,West,1395.736
+2018,8,Furniture,Furnishings,Central,203.044
+2018,8,Furniture,Furnishings,East,255.52
+2018,8,Furniture,Furnishings,South,50.168
+2018,8,Furniture,Furnishings,West,893.546
+2018,8,Furniture,Tables,East,1802.956
+2018,8,Furniture,Tables,West,2334.782
+2018,8,Office Supplies,Appliances,Central,769.194
+2018,8,Office Supplies,Appliances,East,744.112
+2018,8,Office Supplies,Appliances,South,447.76
+2018,8,Office Supplies,Appliances,West,5143.56
+2018,8,Office Supplies,Art,Central,23.152
+2018,8,Office Supplies,Art,East,601.1
+2018,8,Office Supplies,Art,South,9.728
+2018,8,Office Supplies,Art,West,98.88
+2018,8,Office Supplies,Binders,Central,175.722
+2018,8,Office Supplies,Binders,East,5805.18
+2018,8,Office Supplies,Binders,South,2208.45
+2018,8,Office Supplies,Binders,West,4683.872
+2018,8,Office Supplies,Envelopes,Central,85.36
+2018,8,Office Supplies,Envelopes,South,17.656
+2018,8,Office Supplies,Envelopes,West,32.144
+2018,8,Office Supplies,Fasteners,Central,35
+2018,8,Office Supplies,Fasteners,South,24.32
+2018,8,Office Supplies,Fasteners,West,8.376
+2018,8,Office Supplies,Labels,Central,230.96
+2018,8,Office Supplies,Labels,East,42.184
+2018,8,Office Supplies,Labels,West,109.26
+2018,8,Office Supplies,Paper,Central,410.512
+2018,8,Office Supplies,Paper,East,345.8
+2018,8,Office Supplies,Paper,South,523.096
+2018,8,Office Supplies,Paper,West,703.878
+2018,8,Office Supplies,Storage,Central,550.44
+2018,8,Office Supplies,Storage,East,1931.458
+2018,8,Office Supplies,Storage,South,67.136
+2018,8,Office Supplies,Storage,West,3752.804
+2018,8,Office Supplies,Supplies,Central,64.602
+2018,8,Office Supplies,Supplies,East,70.12
+2018,8,Office Supplies,Supplies,West,83.748
+2018,8,Technology,Accessories,Central,303.004
+2018,8,Technology,Accessories,East,1143.068
+2018,8,Technology,Accessories,South,911.616
+2018,8,Technology,Accessories,West,2603.95
+2018,8,Technology,Copiers,West,1179.974
+2018,8,Technology,Machines,Central,1439.982
+2018,8,Technology,Phones,Central,1704.058
+2018,8,Technology,Phones,East,1210.83
+2018,8,Technology,Phones,South,4675.816
+2018,8,Technology,Phones,West,2446.864
+2018,9,Furniture,Bookcases,Central,1067.134
+2018,9,Furniture,Bookcases,East,782.94
+2018,9,Furniture,Bookcases,West,1785.782
+2018,9,Furniture,Chairs,Central,2424.474
+2018,9,Furniture,Chairs,East,8960.595
+2018,9,Furniture,Chairs,South,1240.24
+2018,9,Furniture,Chairs,West,4286.36
+2018,9,Furniture,Furnishings,Central,264.884
+2018,9,Furniture,Furnishings,East,651.37
+2018,9,Furniture,Furnishings,South,68.96
+2018,9,Furniture,Furnishings,West,1485.79
+2018,9,Furniture,Tables,Central,1277.815
+2018,9,Furniture,Tables,East,598.746
+2018,9,Furniture,Tables,West,3621.616
+2018,9,Office Supplies,Appliances,Central,138.49
+2018,9,Office Supplies,Appliances,East,103.84
+2018,9,Office Supplies,Appliances,South,1368.412
+2018,9,Office Supplies,Appliances,West,1433.778
+2018,9,Office Supplies,Art,Central,111.192
+2018,9,Office Supplies,Art,East,220.656
+2018,9,Office Supplies,Art,South,282.16
+2018,9,Office Supplies,Art,West,356.666
+2018,9,Office Supplies,Binders,Central,2545.81
+2018,9,Office Supplies,Binders,East,1002.676
+2018,9,Office Supplies,Binders,South,2339.254
+2018,9,Office Supplies,Binders,West,6121.375
+2018,9,Office Supplies,Envelopes,Central,191.256
+2018,9,Office Supplies,Envelopes,East,60.664
+2018,9,Office Supplies,Envelopes,South,24.448
+2018,9,Office Supplies,Envelopes,West,119.272
+2018,9,Office Supplies,Fasteners,Central,72.448
+2018,9,Office Supplies,Fasteners,East,19.18
+2018,9,Office Supplies,Fasteners,South,14.2
+2018,9,Office Supplies,Fasteners,West,52.9
+2018,9,Office Supplies,Labels,Central,45.544
+2018,9,Office Supplies,Labels,East,107.216
+2018,9,Office Supplies,Labels,South,251.694
+2018,9,Office Supplies,Labels,West,156.796
+2018,9,Office Supplies,Paper,Central,526.974
+2018,9,Office Supplies,Paper,East,1449.26
+2018,9,Office Supplies,Paper,South,1342.106
+2018,9,Office Supplies,Paper,West,1272.964
+2018,9,Office Supplies,Storage,Central,938.958
+2018,9,Office Supplies,Storage,East,943.678
+2018,9,Office Supplies,Storage,South,1725.49
+2018,9,Office Supplies,Storage,West,1339.218
+2018,9,Office Supplies,Supplies,Central,1.744
+2018,9,Office Supplies,Supplies,East,4854.632
+2018,9,Office Supplies,Supplies,South,43.312
+2018,9,Office Supplies,Supplies,West,29.26
+2018,9,Technology,Accessories,Central,3810.13
+2018,9,Technology,Accessories,East,3070.8
+2018,9,Technology,Accessories,South,342.348
+2018,9,Technology,Accessories,West,1590.016
+2018,9,Technology,Copiers,Central,319.984
+2018,9,Technology,Machines,Central,336.51
+2018,9,Technology,Machines,East,733.755
+2018,9,Technology,Machines,West,506.28
+2018,9,Technology,Phones,Central,3269.65
+2018,9,Technology,Phones,East,7960.146
+2018,9,Technology,Phones,South,1139.896
+2018,9,Technology,Phones,West,2949.144
+2018,10,Furniture,Bookcases,Central,328.3992
+2018,10,Furniture,Bookcases,East,2469.252
+2018,10,Furniture,Bookcases,West,1282.075
+2018,10,Furniture,Chairs,Central,748.02
+2018,10,Furniture,Chairs,East,367.146
+2018,10,Furniture,Chairs,South,717.892
+2018,10,Furniture,Chairs,West,2836.376
+2018,10,Furniture,Furnishings,Central,184.408
+2018,10,Furniture,Furnishings,East,1116.056
+2018,10,Furniture,Furnishings,South,218.968
+2018,10,Furniture,Furnishings,West,204.7
+2018,10,Furniture,Tables,Central,2089.871
+2018,10,Furniture,Tables,East,1836.348
+2018,10,Furniture,Tables,South,6205.508
+2018,10,Furniture,Tables,West,1279.049
+2018,10,Office Supplies,Appliances,Central,61.2
+2018,10,Office Supplies,Appliances,East,1068.688
+2018,10,Office Supplies,Appliances,South,17.92
+2018,10,Office Supplies,Appliances,West,2187.72
+2018,10,Office Supplies,Art,Central,210.452
+2018,10,Office Supplies,Art,East,129.886
+2018,10,Office Supplies,Art,South,42.24
+2018,10,Office Supplies,Art,West,231.164
+2018,10,Office Supplies,Binders,Central,2072.904
+2018,10,Office Supplies,Binders,East,265.444
+2018,10,Office Supplies,Binders,South,2021.445
+2018,10,Office Supplies,Binders,West,5779.525
+2018,10,Office Supplies,Envelopes,Central,25.752
+2018,10,Office Supplies,Envelopes,East,143.56
+2018,10,Office Supplies,Envelopes,South,251.58
+2018,10,Office Supplies,Envelopes,West,8.96
+2018,10,Office Supplies,Fasteners,East,17.9
+2018,10,Office Supplies,Fasteners,South,30.616
+2018,10,Office Supplies,Fasteners,West,23.84
+2018,10,Office Supplies,Labels,Central,6.16
+2018,10,Office Supplies,Labels,East,99.13
+2018,10,Office Supplies,Labels,South,41.07
+2018,10,Office Supplies,Labels,West,246.49
+2018,10,Office Supplies,Paper,Central,232.002
+2018,10,Office Supplies,Paper,East,541.462
+2018,10,Office Supplies,Paper,South,246.712
+2018,10,Office Supplies,Paper,West,816.494
+2018,10,Office Supplies,Storage,Central,1710.394
+2018,10,Office Supplies,Storage,East,1300.574
+2018,10,Office Supplies,Storage,South,1187.164
+2018,10,Office Supplies,Storage,West,1615.82
+2018,10,Office Supplies,Supplies,South,35.06
+2018,10,Office Supplies,Supplies,West,39.072
+2018,10,Technology,Accessories,Central,957.23
+2018,10,Technology,Accessories,East,1179.33
+2018,10,Technology,Accessories,South,18.528
+2018,10,Technology,Accessories,West,2876.974
+2018,10,Technology,Copiers,East,11199.968
+2018,10,Technology,Machines,East,6904.85
+2018,10,Technology,Machines,West,969.145
+2018,10,Technology,Phones,Central,3186.056
+2018,10,Technology,Phones,East,3655.646
+2018,10,Technology,Phones,South,1102.248
+2018,10,Technology,Phones,West,805.688
+2018,11,Furniture,Bookcases,Central,533.732
+2018,11,Furniture,Bookcases,East,505.536
+2018,11,Furniture,Bookcases,South,723.92
+2018,11,Furniture,Bookcases,West,359.499
+2018,11,Furniture,Chairs,Central,2539.344
+2018,11,Furniture,Chairs,East,3983.346
+2018,11,Furniture,Chairs,South,2277.816
+2018,11,Furniture,Chairs,West,5760.712
+2018,11,Furniture,Furnishings,Central,672.504
+2018,11,Furniture,Furnishings,East,3731.966
+2018,11,Furniture,Furnishings,South,1643.364
+2018,11,Furniture,Furnishings,West,666.288
+2018,11,Furniture,Tables,Central,1322.916
+2018,11,Furniture,Tables,East,2662.146
+2018,11,Furniture,Tables,South,2305.446
+2018,11,Furniture,Tables,West,7368.18
+2018,11,Office Supplies,Appliances,Central,174.826
+2018,11,Office Supplies,Appliances,East,3613.89
+2018,11,Office Supplies,Appliances,South,2292.824
+2018,11,Office Supplies,Appliances,West,664.53
+2018,11,Office Supplies,Art,Central,543.268
+2018,11,Office Supplies,Art,East,535.976
+2018,11,Office Supplies,Art,South,168.468
+2018,11,Office Supplies,Art,West,139.33
+2018,11,Office Supplies,Binders,Central,2508.372
+2018,11,Office Supplies,Binders,East,1649.97
+2018,11,Office Supplies,Binders,South,436.035
+2018,11,Office Supplies,Binders,West,1896.188
+2018,11,Office Supplies,Envelopes,Central,83.088
+2018,11,Office Supplies,Envelopes,East,273.516
+2018,11,Office Supplies,Envelopes,South,70.168
+2018,11,Office Supplies,Envelopes,West,91.86
+2018,11,Office Supplies,Fasteners,Central,77.352
+2018,11,Office Supplies,Fasteners,South,25.06
+2018,11,Office Supplies,Fasteners,West,35.8
+2018,11,Office Supplies,Labels,Central,67.96
+2018,11,Office Supplies,Labels,South,17.318
+2018,11,Office Supplies,Labels,West,122.65
+2018,11,Office Supplies,Paper,Central,826.418
+2018,11,Office Supplies,Paper,East,1286.286
+2018,11,Office Supplies,Paper,South,559.234
+2018,11,Office Supplies,Paper,West,948.676
+2018,11,Office Supplies,Storage,Central,1698.86
+2018,11,Office Supplies,Storage,East,4422.192
+2018,11,Office Supplies,Storage,South,2738.24
+2018,11,Office Supplies,Storage,West,3051.984
+2018,11,Office Supplies,Supplies,Central,36.532
+2018,11,Office Supplies,Supplies,East,384.592
+2018,11,Office Supplies,Supplies,South,2.944
+2018,11,Office Supplies,Supplies,West,27.93
+2018,11,Technology,Accessories,Central,730.442
+2018,11,Technology,Accessories,East,1723.044
+2018,11,Technology,Accessories,South,3667.03
+2018,11,Technology,Accessories,West,1966.234
+2018,11,Technology,Copiers,East,11399.952
+2018,11,Technology,Copiers,South,959.984
+2018,11,Technology,Machines,East,705.435
+2018,11,Technology,Machines,South,7999.98
+2018,11,Technology,Machines,West,3055.962
+2018,11,Technology,Phones,Central,3339.364
+2018,11,Technology,Phones,East,8755.792
+2018,11,Technology,Phones,South,2543.5
+2018,11,Technology,Phones,West,2562.384
+2018,12,Furniture,Bookcases,Central,538.7728
+2018,12,Furniture,Bookcases,East,1024.076
+2018,12,Furniture,Bookcases,West,2091.249
+2018,12,Furniture,Chairs,Central,3410.524
+2018,12,Furniture,Chairs,East,3902.726
+2018,12,Furniture,Chairs,South,3718.504
+2018,12,Furniture,Chairs,West,3934.704
+2018,12,Furniture,Furnishings,Central,561.282
+2018,12,Furniture,Furnishings,East,1228.422
+2018,12,Furniture,Furnishings,South,209.948
+2018,12,Furniture,Furnishings,West,2062.016
+2018,12,Furniture,Tables,Central,1994.308
+2018,12,Furniture,Tables,East,799.642
+2018,12,Furniture,Tables,South,1656.831
+2018,12,Furniture,Tables,West,4274.462
+2018,12,Office Supplies,Appliances,Central,2591.528
+2018,12,Office Supplies,Appliances,East,2839.132
+2018,12,Office Supplies,Appliances,South,639.996
+2018,12,Office Supplies,Appliances,West,423.422
+2018,12,Office Supplies,Art,Central,222.476
+2018,12,Office Supplies,Art,East,122.964
+2018,12,Office Supplies,Art,South,211.614
+2018,12,Office Supplies,Art,West,305.224
+2018,12,Office Supplies,Binders,Central,2229.898
+2018,12,Office Supplies,Binders,East,1084.416
+2018,12,Office Supplies,Binders,South,201.972
+2018,12,Office Supplies,Binders,West,1243.636
+2018,12,Office Supplies,Envelopes,Central,7.28
+2018,12,Office Supplies,Envelopes,East,173.116
+2018,12,Office Supplies,Envelopes,South,190.764
+2018,12,Office Supplies,Envelopes,West,43.7
+2018,12,Office Supplies,Fasteners,Central,55.842
+2018,12,Office Supplies,Fasteners,East,87.946
+2018,12,Office Supplies,Fasteners,South,3.62
+2018,12,Office Supplies,Fasteners,West,22.624
+2018,12,Office Supplies,Labels,Central,61.06
+2018,12,Office Supplies,Labels,East,112.056
+2018,12,Office Supplies,Labels,South,5.76
+2018,12,Office Supplies,Labels,West,99.84
+2018,12,Office Supplies,Paper,Central,939.252
+2018,12,Office Supplies,Paper,East,784.7
+2018,12,Office Supplies,Paper,South,794.588
+2018,12,Office Supplies,Paper,West,1372.17
+2018,12,Office Supplies,Storage,Central,1718.778
+2018,12,Office Supplies,Storage,East,1434.32
+2018,12,Office Supplies,Storage,South,1394.756
+2018,12,Office Supplies,Storage,West,5653.224
+2018,12,Office Supplies,Supplies,Central,44.688
+2018,12,Office Supplies,Supplies,East,794.73
+2018,12,Office Supplies,Supplies,South,1665.62
+2018,12,Office Supplies,Supplies,West,61.3
+2018,12,Technology,Accessories,Central,1622.962
+2018,12,Technology,Accessories,East,854.26
+2018,12,Technology,Accessories,South,1168.826
+2018,12,Technology,Accessories,West,1342.948
+2018,12,Technology,Copiers,East,1199.98
+2018,12,Technology,Copiers,South,1399.98
+2018,12,Technology,Copiers,West,4079.928
+2018,12,Technology,Machines,South,1248.97
+2018,12,Technology,Phones,Central,2884.42
+2018,12,Technology,Phones,East,2843
+2018,12,Technology,Phones,South,697.988
+2018,12,Technology,Phones,West,2641.648
