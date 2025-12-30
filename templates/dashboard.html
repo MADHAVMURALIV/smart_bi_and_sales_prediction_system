@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spark BI Dashboard</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/upload.js') }}"></script>
+
+  <style>
+    :root {
+      --bg-dark: #0a0a0a;
+      --sidebar-bg: #000000;
+      --card-bg: #141414;
+      --accent-purple: #9333ea;
+      --text-gray: #9ca3af;
+      --text-light: #ffffff;
+      --border-color: #262626;
+    }
+
+    * { box-sizing: border-box; }
+
+/* light theme added here --------------------------------------------------------------------------------------------*/
+/* LIGHT THEME */
+body.light {
+  --bg-dark: #f8fafc;
+  --sidebar-bg: #ffffff;
+  --card-bg: #ffffff;
+  --accent-purple: #7c3aed;
+  --text-gray: #475569;
+  --text-light: #0f172a;
+  --border-color: #e5e7eb;
+}
+
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-light);
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* SIDEBAR */
+    .sidebar {
+      width: 250px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      padding: 24px 16px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 40px;
+      padding-left: 10px;
+    }
+
+    .sidebar-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--text-gray);
+      letter-spacing: 1px;
+      margin: 20px 0 10px 10px;
+    }
+
+    .sidebar a {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      margin-bottom: 4px;
+      border-radius: 10px;
+      color: var(--text-gray);
+      text-decoration: none;
+      font-size: 14px;
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+
+    .sidebar a.active {
+      background: linear-gradient(90deg, #a855f7 0%, #7e22ce 100%);
+      color: white;
+    }
+
+    .sidebar a:hover:not(.active) {
+      background: #1f2937;
+      color: white;
+    }
+
+    /* MAIN CONTENT */
+    .main {
+      flex: 1;
+      padding: 24px;
+      overflow-y: auto;
+      background: var(--bg-dark);
+    }
+
+    /* HEADER AREA */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .search-container {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      padding: 8px 16px;
+      border-radius: 8px;
+      width: 300px;
+      color: var(--text-gray);
+    }
+
+    /* STATS CARDS */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    .stat-card h4 {
+      margin: 0;
+      font-size: 14px;
+      color: var(--text-gray);
+      font-weight: 400;
+    }
+
+    .stat-card .value {
+      font-size: 24px;
+      font-weight: 600;
+      margin: 10px 0;
+    }
+
+    .stat-card .trend {
+      font-size: 12px;
+      color: #10b981; /* Green for positive */
+    }
+
+    /* GRID LAYOUT */
+    .grid-dashboard {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    /* ===== FIX: STOP INFINITE CHART RESIZE ===== */
+  .card canvas {
+  width: 100% !important;
+  height: 260px !important;   /* lock height */
+}
+
+    .card {
+      background: var(--card-bg);
+      padding: 24px;
+      border-radius: 16px;
+      border: 1px solid var(--border-color);
+      position: relative;
+    }
+
+    .card h3 {
+      margin: 0 0 20px 0;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    /* TABLE STYLING */
+    .table-container { width: 100%; overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th { text-align: left; color: var(--text-gray); font-size: 12px; font-weight: 400; padding: 12px 8px; border-bottom: 1px solid var(--border-color); }
+    td { padding: 16px 8px; font-size: 13px; border-bottom: 1px solid var(--border-color); }
+
+    /* ACTION BUTTONS */
+    .btn {
+      background: var(--accent-purple);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 500;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .btn-outline {
+      background: transparent;
+      border: 1px solid var(--border-color);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 8px;
+    }
+
+    /* PROMO CARD */
+    .promo-card {
+      background: linear-gradient(135deg, #1e1b4b 0%, #4c1d95 100%);
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* SECTION CONTROL */
+    .section { display: none; }
+    .section.active { display: block; }
+
+    /* LOADER */
+    .loader-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Theme toggle switch */
+.theme-switch {
+  position: relative;
+  display: inline-block;
+  width: 72px;
+  height: 36px;
+}
+
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background: #1f2937;
+  border-radius: 999px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  left: 4px;
+  bottom: 4px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.3s;
+  z-index: 2;
+}
+
+.theme-switch input:checked + .slider {
+  background: #9333ea;
+}
+
+.theme-switch input:checked + .slider::before {
+  transform: translateX(36px);
+}
+
+.icon {
+  font-size: 14px;
+  z-index: 1;
+}
+
+  </style>
+</head>
+
+<body>
+
+<div class="sidebar">
+  <div class="logo">● Spark BI</div>
+  
+  <div class="sidebar-label">Main Menu</div>
+  <a class="active" onclick="showSection('dashboard', this)"><span>⊞</span> &nbsp; Dashboard</a>
+  <a onclick="showSection('predict', this)"><span>📦</span> &nbsp; Predict</a>
+  <a onclick="showSection('inventory', this)"><span>📁</span> &nbsp; Inventory</a>
+  <a onclick="showSection('insights', this)"><span>📊</span> &nbsp; Insights</a>
+  
+  <div class="sidebar-label">Preference</div>
+  <a onclick="showSection('settings', this)">
+  <span>⚙</span> &nbsp; Settings
+</a>
+
+</div>
+
+<div id="section-settings" class="section">
+  <div class="card" style="max-width:320px;">
+    <h3>Theme</h3>
+
+    <label class="theme-switch">
+      <input type="checkbox" id="themeToggle" onchange="toggleTheme()" />
+      <span class="slider">
+        <span class="icon sun">☀️</span>
+        <span class="icon moon">🌙</span>
+      </span>
+    </label>
+
+  </div>
+</div>
+
+
+
+<div class="main">
+  <div class="top-bar">
+  <!--  <div class="search-container">Spark BI</div> -->
+    <div id="liveTime" style="color:var(--text-gray);font-size:14px;"></div>
+
+  </div> 
+  <div id="section-dashboard" class="section active">
+    
+    <div class="stats">
+      <div class="stat-card">
+        <h4>Total Revenue</h4>
+        <div class="value" id="totalRevenue"></div>
+
+        <div class="trend">+15.4% vs last month</div>
+      </div>
+      <div class="stat-card">
+        <h4>MAE (Error Rate)</h4>
+        <div class="value" id="mae">--</div>
+        <div class="trend">Accuracy Metric</div>
+      </div>
+      <div class="stat-card">
+        <h4>R² Score</h4>
+        <div class="value" id="r2">--</div>
+        <div class="trend">Model Fit</div>
+      </div>
+      <div class="stat-card">
+        <h4>Forecast</h4>
+        <div class="value">6 Months</div>
+        <div class="trend">Random Forest</div>
+      </div>
+    </div>
+
+    <div class="grid-dashboard">
+      <div class="card">
+        <h3>AI prediction vs actual sales</h3>
+        <canvas id="salesChart"></canvas>
+      </div>
+      <div class="card">
+        <h3>Sales Performance</h3>
+        <canvas id="monthlyChart"></canvas>
+      </div>
+    </div>
+    <div class="grid-dashboard">
+      <div class="card">
+        <h3>Forecast - next 6 months</h3>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>INVENTORY LEVELS (upcoming 6 months )</th>
+              </tr>
+            </thead>
+            <tbody id="inventoryList">
+              </tbody>
+          </table>
+        </div>
+        <div style="margin-top: 20px;">
+            <input type="file" id="csvFile" accept=".csv" style="display:none">
+            <button class="btn" onclick="document.getElementById('csvFile').click()">Choose CSV</button>
+            <button class="btn" onclick="uploadCSV()">Upload & Analyze</button>
+        </div>
+      </div>
+      <div class="promo-card">
+        <div style="font-size: 40px; margin-bottom: 15px;">✦</div>
+        <h3>Download AI-report</h3>
+        <p style="font-size: 13px; color: #d1d5db; margin-bottom: 20px;">Optimize sales with AI-driven insights and smarter predictions.</p>
+        <button class="btn" style="width: 100%;" onclick="downloadReport()">Download Report (PDF)</button>
+      </div>
+    </div> 
+    <div class="card">
+        <h3>Future Sales Projection</h3>
+        <canvas id="futureChart"></canvas>
+    </div>
+  </div>
+  <div id="section-predict" class="section">
+    <div class="card">
+      <h3>Sales Prediction</h3>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+        <input type="number" id="pYear" placeholder="Year (20XX)" style="background:#1f2937; border:1px solid #374151; color:white; padding:8px; border-radius:6px;">
+        <input type="number" id="pMonth" placeholder="Month (1 - 12)" style="background:#1f2937; border:1px solid #374151; color:white; padding:8px; border-radius:6px;">
+        <select id="pCategory" style="background:#1f2937; border:1px solid #374151; color:white; padding:8px; border-radius:6px;"><option value="">Category</option></select>
+        <select id="pRegion" style="background:#1f2937; border:1px solid #374151; color:white; padding:8px; border-radius:6px;"><option value="">Region</option></select>
+        <button class="btn" onclick="predictSales()">Predict</button>
+      </div>
+      <input type="hidden" id="img_sales">
+      <input type="hidden" id="img_future">
+      <input type="hidden" id="img_predict">
+      <div style="margin-top:25px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+        <div>
+            <p>Avg Sales : $ <span id="avgSalesValue">--</span></p>
+            <p>Total Sales : $ <span id="totalSalesValue">--</span></p>
+            <p style="font-size: 20px;">Predicted: $<b id="predictedValue" style="color:var(--accent-purple)">--</b></p>
+            <p id="predictionStatus"></p>
+        </div>
+        <canvas id="predictCompareChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-inventory" class="section">
+    <div class="card">
+      <h3>Inventory Rules</h3>
+      <div class="table-container">
+          <table>
+              <tr><td>&lt; 50%</td><td>Refill Needed</td><td style="color:#ef4444;">● High Alert</td></tr>
+              <tr><td>50–80%</td><td>Monitor</td><td style="color:#f59e0b;">● Warning</td></tr>
+              <tr><td>&gt; 80%</td><td>No Action</td><td style="color:#10b981;">● Healthy</td></tr>
+              <p>✦ Reorder Stock -> Sales demand is projected to exceed current inventory levels. </p>
+                <p>Immediate replenishment is advised to prevent stockouts, lost sales, and customer dissatisfaction.</p>
+              <p>✦ Excess Stock -> Inventory exceeds forecasted demand. </p>
+                <p>Holding excess stock may increase storage costs and risk obsolescence; consider promotions, discounts, or reduced future procurement.</p>
+              <p>✦ Optimal Stock -> Inventory levels align well with predicted sales.</p>
+              <p>Stock is sufficient to meet demand without over-holding, ensuring efficient operations and cost control.</p>
+              
+          </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-insights" class="section">
+    <div class="card">
+      <h3>Project Infrastructure</h3>
+      <ul style="line-height: 2;">
+        <li><b style="color:var(--accent-purple)">Smart BI & Sales Prediction System </b>is an end-to-end AI-powered analytics platform designed to help businesses understand past performance and anticipate future sales trends. The system processes CSV-based sales data, applies machine learning models to predict upcoming demand, and visualizes insights through interactive dashboards. It supports inventory planning by identifying reorder, excess, and optimal stock conditions, enabling smarter operational and strategic decisions based on data rather than intuition.
+</li>
+        <li><b style="color:var(--accent-purple)">Model:</b> Random Forest Regressor</li>
+        <li><b style="color:var(--accent-purple)">Backend:</b> Python Flask</li>
+        <li><b style="color:var(--accent-purple)">HTML used :</b> HTML5</li>
+        <li><b style="color:var(--accent-purple)">CSS used :</b> CSS3</li>
+        <li><b style="color:var(--accent-purple)">Charts:</b> Chart.js Library</li>
+        <li><b style="color:var(--accent-purple)">Python version :</b> 3.13.9 / 3.10.11 </li>
+        <li><b style="color:var(--accent-purple)">Matrics :</b> R2 - score / MAE </li>
+        <li><b style="color:var(--accent-purple)">Training dataset :</b>Kaggle - Superstore dataset</li>     
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="loader" class="loader-overlay">
+  <div style="text-align:center;">
+    <div style="width: 50px; height: 50px; border: 3px solid #374151; border-top: 3px solid #9333ea; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+    <p style="margin-top:12px; color: white;">AI Analysis in progress...</p>
+  </div>
+</div>
+<style> @keyframes spin { to { transform: rotate(360deg); } } </style>
+<script>
+function showSection(name, el) {
+  document.querySelectorAll(".section").forEach(s => s.classList.remove("active"));
+  document.querySelectorAll(".sidebar a").forEach(a => a.classList.remove("active"));
+  document.getElementById("section-" + name).classList.add("active");
+  el.classList.add("active");
+}
+</script>
+<!-- Theme switch - js -->
+<script>
+function toggleTheme() {
+  document.body.classList.toggle("light");
+  localStorage.setItem(
+    "theme",
+    document.body.classList.contains("light") ? "light" : "dark"
+  );
+}
+
+window.onload = () => {
+  if (localStorage.getItem("theme") === "light") {
+    document.body.classList.add("light");
+  }
+};
+
+</script>
+
+<script>
+function updateTime() {
+  const now = new Date();
+
+  const day = String(now.getDate()).padStart(2, "0");
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const year = now.getFullYear();
+
+  const time = now.toLocaleTimeString("en-US", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: true
+  });
+
+  document.getElementById("liveTime").innerText =
+    `${day}/${month}/${year} | ${time}`;
+}
+
+updateTime();
+setInterval(updateTime, 1000);
+</script>
+
+</body>
+</html>
