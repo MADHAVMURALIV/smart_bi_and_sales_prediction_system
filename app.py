@@ -206,5 +206,6 @@ def download_report():
     )
 
 if __name__ == "__main__":
-    webbrowser.open("http://127.0.0.1:5000")    # remove this ffor manual url access
+    webbrowser.open("http://127.0.0.1:5000")    # remove this for manual access , url can be fetched from cmd
     app.run(debug=True)
+
