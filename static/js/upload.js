@@ -1,4 +1,3 @@
-// Global state
 let AVG_SALES = 0;
 let TOTAL_SALES = 0;
 let predictChart = null;
@@ -7,7 +6,7 @@ let predictChart = null;
 function uploadCSV() {
   const fileInput = document.getElementById("csvFile");
 
-  if (!fileInput.files.length) {
+  if (!fileInput || !fileInput.files.length) {
     alert("Please select a CSV file");
     return;
   }
@@ -22,75 +21,65 @@ function uploadCSV() {
     body: formData
   })
     .then(res => {
-      if (!res.ok) throw new Error("Server error");
+      if (!res.ok) throw new Error("Upload failed");
       return res.json();
     })
     .then(data => {
-      AVG_SALES = data.avg_sales;
-      TOTAL_SALES = data.total_sales;
+      // Core stats
+      AVG_SALES = Number(data.avg_sales || 0);
+      TOTAL_SALES = Number(data.total_sales || 0);
 
-      document.getElementById("avgSalesValue").innerText = AVG_SALES.toFixed(2);
-      document.getElementById("totalSalesValue").innerText = TOTAL_SALES.toFixed(2);
-      document.getElementById("totalRevenue").innerText =
-      "$" + data.total_revenue.toFixed(2);
+      // Update UI values
+      setText("avgSalesValue", AVG_SALES.toFixed(2));
+      setText("totalSalesValue", TOTAL_SALES.toFixed(2));
+      setText("totalRevenue", data.total_revenue?.toFixed(2) || "0");
 
-
+      // Charts & sections
       renderSalesChart(data);
-      updateMetrics(data.metrics);
       renderFutureChart(data);
-      renderInventory(data.inventory_plan);
       renderMonthlyTrend(data);
+      renderInventory(data.inventory_plan);
+      updateMetrics(data.metrics);
 
+      // Dropdowns
       populateDropdown("pCategory", data.categories);
       populateDropdown("pRegion", data.regions);
+
+// Demand Deviation
+document.getElementById("demandDeviation").innerText =
+  `±${Math.round(data.demand_deviation)} units`;
+
+// Trend Consistency
+const trendEl = document.getElementById("trendConsistency");
+trendEl.innerText = data.trend_consistency;
+
+trendEl.style.color =
+  data.trend_consistency === "High" ? "#22c55e" :
+  data.trend_consistency === "Medium" ? "#facc15" :
+  "#ef4444";
+
     })
     .catch(err => {
       console.error(err);
       alert("Upload failed. Check console.");
     })
-    .finally(() => {
-      hideLoader();   
-    });
+    .finally(hideLoader);
 }
 
-function downloadReport() {
-  captureCharts();
-  showLoader();
-  fetch("/download-report", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      sales_img: document.getElementById("img_sales").value,
-      future_img: document.getElementById("img_future").value,
-      predict_img: document.getElementById("img_predict").value
-    })
-  })
-  .then(res => res.blob())
-  .then(blob => {
-    hideLoader();
-    const url = window.URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "Smart_BI_Report.pdf";
-    a.click();
-  });
-}
-
-//predict sales 
-
+// Predict Sale
 function predictSales() {
-  const category = document.getElementById("pCategory").value;
-  const region = document.getElementById("pRegion").value;
-  const year = document.getElementById("pYear").value;
-  const month = document.getElementById("pMonth").value;
+  const category = getVal("pCategory");
+  const region = getVal("pRegion");
+  const year = getVal("pYear");
+  const month = getVal("pMonth");
 
   if (!category || !region) {
-    alert("Please select Category and Region");
+    alert("Select Category and Region");
     return;
   }
 
   if (!year || !month) {
-    alert("Please enter Year and Month");
+    alert("Enter Year and Month");
     return;
   }
 
@@ -99,68 +88,69 @@ function predictSales() {
   fetch("/predict-single", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      year: year,
-      month: month,
-      category: category,
-      region: region
-    })
+    body: JSON.stringify({ year, month, category, region })
   })
     .then(res => {
       if (!res.ok) throw new Error("Prediction failed");
       return res.json();
     })
     .then(data => {
-      document.getElementById("predictedValue").innerText = data.prediction;
-      renderPredictCompare(data.prediction);
+      const prediction = Number(data.prediction || 0);
+      setText("predictedValue", prediction.toFixed(2));
+      renderPredictCompare(prediction);
 
-      // Profit / Loss logic
       const status = document.getElementById("predictionStatus");
+      if (!status) return;
 
-      if (data.prediction > AVG_SALES) {
-        status.innerText = "✅ Profit detected – refill your inventory";
+      if (prediction > AVG_SALES) {
+        status.innerText = "✅ Profit detected – refill inventory";
         status.style.color = "#22c55e";
-      } else if (data.prediction === AVG_SALES) {
-        status.innerText = " ⚠️ No change detected – inventory remains stable";
+      } else if (prediction === AVG_SALES) {
+        status.innerText = "⚠️ Stable demand – no action required";
         status.style.color = "#eab308";
       } else {
-        status.innerText = "❌ Loss detected – check your inventory";
-        status.style.color = "#f97316";
+        status.innerText = "❌ Loss detected – check inventory";
+        status.style.color = "#ef4444";
       }
-
-      hideLoader();
     })
     .catch(err => {
       console.error(err);
-      hideLoader();
       alert("Prediction failed");
-    });
+    })
+    .finally(hideLoader);
 }
+// Download PDF Report
+function downloadReport() {
+  showLoader();
+  captureCharts();
 
-// helper: populate dropdown
-
-function populateDropdown(id, items) {
-  const select = document.getElementById(id);
-  select.innerHTML = "";
-
-  items.forEach(v => {
-    const opt = document.createElement("option");
-    opt.value = v;
-    opt.textContent = v;
-    select.appendChild(opt);
-  });
+  fetch("/download-report", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      sales_img: getVal("img_sales"),
+      future_img: getVal("img_future"),
+      predict_img: getVal("img_predict")
+    })
+  })
+    .then(res => res.blob())
+    .then(blob => {
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "Smart_BI_Report.pdf";
+      a.click();
+    })
+    .finally(hideLoader);
 }
-
-// Predict Comparison Chart
+// Chart
 function renderPredictCompare(predicted) {
   const canvas = document.getElementById("predictCompareChart");
   if (!canvas) return;
 
-  const ctx = canvas.getContext("2d");
-
   if (predictChart) predictChart.destroy();
 
-  predictChart = new Chart(ctx, {
+  predictChart = new Chart(canvas.getContext("2d"), {
     type: "bar",
     data: {
       labels: ["Average Sales", "Predicted Sales"],
@@ -172,29 +162,69 @@ function renderPredictCompare(predicted) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-
+      plugins: { legend: { display: false } }
     }
   });
 }
+// Helpers
+function populateDropdown(id, items = []) {
+  const select = document.getElementById(id);
+  if (!select) return;
 
-// Loader helpers
-function showLoader() {
-  const loader = document.getElementById("loader");
-  if (loader) loader.style.display = "flex";
-}
-
-function hideLoader() {
-  const loader = document.getElementById("loader");
-  if (loader) loader.style.display = "none";
+  select.innerHTML = "";
+  items.forEach(v => {
+    const opt = document.createElement("option");
+    opt.value = v;
+    opt.textContent = v;
+    select.appendChild(opt);
+  });
 }
 
 function captureCharts() {
-  document.getElementById("img_sales").value =
-    document.getElementById("salesChart").toDataURL("image/png");
+  setVal("img_sales", getCanvasData("salesChart"));
+  setVal("img_future", getCanvasData("futureChart"));
+  setVal("img_predict", getCanvasData("predictCompareChart"));
+}
 
-  document.getElementById("img_future").value =
-    document.getElementById("futureChart").toDataURL("image/png");
+function getCanvasData(id) {
+  const c = document.getElementById(id);
+  return c ? c.toDataURL("image/png") : "";
+}
 
-  document.getElementById("img_predict").value =
-    document.getElementById("predictCompareChart").toDataURL("image/png");
+function updateMetrics(data = {}) {
+  setText("demandDeviation", `±${data.demand_deviation || 0} units`);
+
+  const trend = document.getElementById("trendConsistency");
+  if (!trend) return;
+
+  trend.innerText = data.trend_consistency || "Low";
+  trend.style.color =
+    data.trend_consistency === "High" ? "#22c55e" :
+    data.trend_consistency === "Medium" ? "#eab308" :
+    "#ef4444";
+}
+
+function showLoader() {
+  const l = document.getElementById("loader");
+  if (l) l.style.display = "flex";
+}
+
+function hideLoader() {
+  const l = document.getElementById("loader");
+  if (l) l.style.display = "none";
+}
+
+function setText(id, val) {
+  const el = document.getElementById(id);
+  if (el) el.innerText = val;
+}
+
+function setVal(id, val) {
+  const el = document.getElementById(id);
+  if (el) el.value = val;
+}
+
+function getVal(id) {
+  const el = document.getElementById(id);
+  return el ? el.value : "";
 }
