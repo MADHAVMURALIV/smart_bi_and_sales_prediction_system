@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spark BI Dashboard</title>
+  <title>Smart BI Dashboard</title>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -24,11 +24,75 @@
     * { box-sizing: border-box; }
 
 /* light theme added here --------------------------------------------------------------------------------------------*/
-/* LIGHT THEME */
+/* theme toggle button*/
+
+.theme-toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.theme-label {
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+/* Switch container */
+.ios-switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+
+/* Hide checkbox */
+.ios-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Track */
+.ios-slider {
+  position: absolute;
+  inset: 0;
+  background-color: #374151;
+  border-radius: 999px;
+  transition: 0.25s;
+}
+
+/* Knob */
+.ios-slider::before {
+  content: "";
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  top: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.25s;
+}
+
+/* Checked = Light mode */
+.ios-switch input:checked + .ios-slider {
+  background-color: var(--accent-purple);
+}
+
+.ios-switch input:checked + .ios-slider::before {
+  transform: translateX(20px);
+}
+
+
+
 body.light {
-  --bg-dark: #f8fafc;
-  --sidebar-bg: #ffffff;
-  --card-bg: #ffffff;
+  --bg-dark: #ffffff;
+  --sidebar-bg: #d6d6d6;
+  --card-bg: #e0e0e0;
   --accent-purple: #7c3aed;
   --text-gray: #475569;
   --text-light: #0f172a;
@@ -152,7 +216,7 @@ body.light {
 
     .stat-card .trend {
       font-size: 12px;
-      color: #10b981; /* Green for positive */
+      color: #10b981; 
     }
 
     /* GRID LAYOUT */
@@ -163,10 +227,9 @@ body.light {
       margin-bottom: 24px;
     }
 
-    /* ===== FIX: STOP INFINITE CHART RESIZE ===== */
   .card canvas {
   width: 100% !important;
-  height: 260px !important;   /* lock height */
+  height: 260px !important;   
 }
 
     .card {
@@ -288,6 +351,75 @@ body.light {
   font-size: 14px;
   z-index: 1;
 }
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  padding: 18px 22px;
+  border-radius: 12px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+}
+
+.settings-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.settings-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.settings-subtitle {
+  font-size: 13px;
+  color: var(--text-gray);
+}
+
+.ios-switch {
+  position: relative;
+  width: 46px;
+  height: 24px;
+}
+
+.ios-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.ios-slider {
+  position: absolute;
+  inset: 0;
+  background: #374151;
+  border-radius: 999px;
+  transition: 0.25s;
+}
+
+.ios-slider::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  top: 3px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.25s;
+}
+
+.ios-switch input:checked + .ios-slider {
+  background: #65e64b; /* color inside toggle button */
+}
+
+.ios-switch input:checked + .ios-slider::before {
+  transform: translateX(22px);
+}
+
 
   </style>
 </head>
@@ -295,13 +427,13 @@ body.light {
 <body>
 
 <div class="sidebar">
-  <div class="logo">● Spark BI</div>
+  <div class="logo">● Smart BI</div>
   
   <div class="sidebar-label">Main Menu</div>
   <a class="active" onclick="showSection('dashboard', this)"><span>⊞</span> &nbsp; Dashboard</a>
   <a onclick="showSection('predict', this)"><span>📦</span> &nbsp; Predict</a>
   <a onclick="showSection('inventory', this)"><span>📁</span> &nbsp; Inventory</a>
-  <a onclick="showSection('insights', this)"><span>📊</span> &nbsp; Insights</a>
+  <!-- <a onclick="showSection('insights', this)"><span>📊</span> &nbsp; Insights</a> -- removed dashboard option -->
   
   <div class="sidebar-label">Preference</div>
   <a onclick="showSection('settings', this)">
@@ -311,17 +443,18 @@ body.light {
 </div>
 
 <div id="section-settings" class="section">
-  <div class="card" style="max-width:320px;">
-    <h3>Theme</h3>
+  <div class="settings-row">
+    <div class="settings-text">
+      <div class="settings-title">Theme</div>
+      <div class="settings-subtitle">
+        Toggle between Light and Dark mode
+      </div>
+    </div>
 
-    <label class="theme-switch">
-      <input type="checkbox" id="themeToggle" onchange="toggleTheme()" />
-      <span class="slider">
-        <span class="icon sun">☀️</span>
-        <span class="icon moon">🌙</span>
-      </span>
+    <label class="ios-switch">
+      <input type="checkbox" id="themeToggle" onchange="toggleTheme()">
+      <span class="ios-slider"></span>
     </label>
-
   </div>
 </div>
 
@@ -329,7 +462,6 @@ body.light {
 
 <div class="main">
   <div class="top-bar">
-  <!--  <div class="search-container">Spark BI</div> -->
     <div id="liveTime" style="color:var(--text-gray);font-size:14px;"></div>
 
   </div> 
@@ -337,21 +469,22 @@ body.light {
     
     <div class="stats">
       <div class="stat-card">
-        <h4>Total Revenue</h4>
+        <h4>Total Sales</h4>
         <div class="value" id="totalRevenue"></div>
+        <div class="trend">-------</div> 
+      </div>
+     <div class="stat-card">
+        <h4>Demand Deviation</h4>
+<div class="value" id="demandDeviation">--</div>
+<p class="trend">Forecast Volatility</p>
 
-        <div class="trend">+15.4% vs last month</div>
       </div>
       <div class="stat-card">
-        <h4>MAE (Error Rate)</h4>
-        <div class="value" id="mae">--</div>
-        <div class="trend">Accuracy Metric</div>
-      </div>
-      <div class="stat-card">
-        <h4>R² Score</h4>
-        <div class="value" id="r2">--</div>
-        <div class="trend">Model Fit</div>
-      </div>
+ <h4>Trend Consistency</h4>
+<div class="value" id="trendConsistency">--</div>
+<p class="trend">Sales Stability</p>
+
+      </div> 
       <div class="stat-card">
         <h4>Forecast</h4>
         <div class="value">6 Months</div>
@@ -416,9 +549,9 @@ body.light {
       <input type="hidden" id="img_predict">
       <div style="margin-top:25px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
         <div>
-            <p>Avg Sales : $ <span id="avgSalesValue">--</span></p>
-            <p>Total Sales : $ <span id="totalSalesValue">--</span></p>
-            <p style="font-size: 20px;">Predicted: $<b id="predictedValue" style="color:var(--accent-purple)">--</b></p>
+            <p>Avg Sales : <span id="avgSalesValue">--</span></p>
+            <p>Total Sales : <span id="totalSalesValue">--</span></p>
+            <p style="font-size: 20px;">Predicted Sales<b id="predictedValue" style="color:var(--accent-purple)">--</b></p>
             <p id="predictionStatus"></p>
         </div>
         <canvas id="predictCompareChart"></canvas>
@@ -491,13 +624,11 @@ function toggleTheme() {
 }
 
 window.onload = () => {
-  if (localStorage.getItem("theme") === "light") {
-    document.body.classList.add("light");
-  }
+  const isLight = localStorage.getItem("theme") === "light";
+  document.body.classList.toggle("light", isLight);
+  document.getElementById("themeToggle").checked = isLight;
 };
-
 </script>
-
 <script>
 function updateTime() {
   const now = new Date();
