@@ -54,15 +54,18 @@ The Smart BI & Sales Prediction System aims to bridge the gap between raw sales 
 
 # UI and Outputs
 
-<img width="778" height="853" alt="Screenshot 2025-12-31 013657" src="https://github.com/user-attachments/assets/5923bc9e-7076-47c5-9169-0b9de53f14fe" />
-<img width="832" height="873" alt="Screenshot 2025-12-31 013618" src="https://github.com/user-attachments/assets/d7431ebd-ac16-46df-a3f0-7156c20a1228" />
-<img width="1901" height="947" alt="Screenshot 2025-12-31 013152" src="https://github.com/user-attachments/assets/8def255e-e585-4394-8cfa-82a5163d7e75" />
-<img width="1907" height="904" alt="Screenshot 2025-12-31 013123" src="https://github.com/user-attachments/assets/cbb0cc3f-27e6-4cca-bf22-564ed42d7d13" />
-<img width="1919" height="894" alt="Screenshot 2025-12-31 013110" src="https://github.com/user-attachments/assets/6dd12133-5aa7-4748-a0a7-8f9993d693f7" />
-<img width="1910" height="899" alt="Screenshot 2025-12-31 013057" src="https://github.com/user-attachments/assets/40055765-8cab-4fd6-bbd3-892a5b452af0" />
-<img width="1919" height="869" alt="Screenshot 2025-12-31 012951" src="https://github.com/user-attachments/assets/60672cf2-35a7-4ff3-94b1-b1d80c1de88c" />
-<img width="1918" height="904" alt="Screenshot 2025-12-31 013043" src="https://github.com/user-attachments/assets/82c0bf69-9b69-4ca3-a7b8-6738386b0b5e" />
-<img width="1902" height="901" alt="Screenshot 2025-12-31 012910" src="https://github.com/user-attachments/assets/28c6fae7-07d1-4ee2-a204-37d6aba25d13" />
-<img width="1900" height="900" alt="Screenshot 2025-12-31 012736" src="https://github.com/user-attachments/assets/2fa51a59-bc32-4973-87e5-56dd101b0b26" />
-<img width="1900" height="909" alt="Screenshot 2025-12-31 012721" src="https://github.com/user-attachments/assets/67b3a214-c304-464f-b17c-f91e4fa3b43f" />
-<img width="1916" height="907" alt="Screenshot 2025-12-31 012650" src="https://github.com/user-attachments/assets/5571a931-a945-4d25-8717-a4645c04b510" />
+<img width="1902" height="1078" alt="Screenshot 2026-01-01 190309" src="https://github.com/user-attachments/assets/9b1851e0-9f56-4497-9e44-5035641b085a" />
+<img width="1898" height="1077" alt="Screenshot 2026-01-01 190201" src="https://github.com/user-attachments/assets/9c414894-8781-410b-ba92-b8a9d79f98ac" />
+<img width="1905" height="1029" alt="Screenshot 2026-01-01 190132" src="https://github.com/user-attachments/assets/302c9a0e-b5a8-470b-b87e-bf78a38681bb" />
+
+<img width="1905" height="1029" alt="Screenshot 2026-01-01 190132" src="https://github.com/user-attachments/assets/df8999ac-cb1a-4bf9-98af-210c81b2296a" />
+<img width="1902" height="1079" alt="Screenshot 2026-01-01 190243" src="https://github.com/user-attachments/assets/5666537a-5fe9-474d-ae14-a5b2c53743b6" />
+<img width="1910" height="1069" alt="Screenshot 2026-01-01 190235" src="https://github.com/user-attachments/assets/b542360f-0984-4c2e-949d-dba17f6b420a" />
+
+<img width="1917" height="1069" alt="Screenshot 2026-01-01 190257" src="https://github.com/user-attachments/assets/1026c8d5-a63d-43d9-9e35-ea85fa73a2e8" />
+<img width="792" height="850" alt="Screenshot 2026-01-01 190345" src="https://github.com/user-attachments/assets/46e74f2f-0ba9-4a51-83d4-da890ca6f46f" />
+<img width="793" height="861" alt="Screenshot 2026-01-01 190355" src="https://github.com/user-attachments/assets/39b5764b-45a0-40c0-b43a-ed2c053c7516" />
+
+
+
+
