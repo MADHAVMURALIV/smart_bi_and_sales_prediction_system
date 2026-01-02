@@ -64,8 +64,10 @@ The Smart BI & Sales Prediction System aims to bridge the gap between raw sales 
 <img width="1910" height="1069" alt="Screenshot 2026-01-01 190235" src="https://github.com/user-attachments/assets/b542360f-0984-4c2e-949d-dba17f6b420a" />
 
 <img width="1917" height="1069" alt="Screenshot 2026-01-01 190257" src="https://github.com/user-attachments/assets/1026c8d5-a63d-43d9-9e35-ea85fa73a2e8" />
-<img width="792" height="850" alt="Screenshot 2026-01-01 190345" src="https://github.com/user-attachments/assets/46e74f2f-0ba9-4a51-83d4-da890ca6f46f" />
-<img width="793" height="861" alt="Screenshot 2026-01-01 190355" src="https://github.com/user-attachments/assets/39b5764b-45a0-40c0-b43a-ed2c053c7516" />
+
+<img width="789" height="851" alt="Screenshot 2026-01-02 172457" src="https://github.com/user-attachments/assets/fc8a86e4-be11-4622-b10b-e648704b166e" />
+<img width="798" height="855" alt="Screenshot 2026-01-02 172508" src="https://github.com/user-attachments/assets/83f1f997-f368-48f7-a8a3-0325fd48d94d" />
+
 
 
 
