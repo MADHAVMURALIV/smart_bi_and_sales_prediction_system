@@ -220,4 +220,5 @@ def download_report():
 
 if __name__ == "__main__":
     webbrowser.open("http://127.0.0.1:5000") # remove this for url in terminal 
-    app.run(debug=True)
+    app.run(debug=True , use_reloader = False ) # reloader set false to remove double tab openinng
+
