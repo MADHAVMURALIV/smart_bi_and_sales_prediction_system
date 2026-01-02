@@ -14,6 +14,8 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, Imag
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.pagesizes import A4
 
+from datetime import datetime 
+
 app = Flask(__name__)
 
 
@@ -179,6 +181,18 @@ def download_report():
     elements.append(Paragraph("Smart BI & Sales Prediction Report", styles["Title"]))
     elements.append(Spacer(1, 14))
 
+
+    generated_time = datetime.now().strftime("%I:%M %p - %d-%m-%Y")   # reportt date and time added 
+
+    elements.append(
+    Paragraph(
+        f"<font size=9 color='grey'>Report generated on {generated_time}</font>",
+        styles["Normal"]
+            )
+        )
+    elements.append(Spacer(1, 12))
+
+
     
     elements.append(Table([
         ["Metric", "Value"],
@@ -220,5 +234,4 @@ def download_report():
 
 if __name__ == "__main__":
     webbrowser.open("http://127.0.0.1:5000") # remove this for url in terminal 
-    app.run(debug=True , use_reloader = False ) # reloader set false to remove double tab openinng
-
+    app.run(debug=True,use_reloader = False) # reloader set false to remove double tab openinng
