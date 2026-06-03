@@ -14,7 +14,7 @@ This project allows users to upload sales data in CSV format and generates inter
 - Light / Dark theme toggle
 - Live date and time display
 
-## Tech Stack
+## Tech-Stack
 - Python
 - Flask
 - Scikit-learn
